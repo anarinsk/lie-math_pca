@@ -91,7 +91,7 @@ $$
 
  
  $$
-\left( \begin{array}{ccc}
+\left( \begin{array}{cccc}
 {x_1^1} & {x_2^1} & {\cdots} & {x_k^1} \\ 
 {x_1^2} & {x_2^2} & {\cdots} & {x_k^2} \\ 
 {\vdots} & {\vdots} & {\ddots} & {\vdots} \\ 
@@ -204,6 +204,6 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE2MjI4NjYzLDE0Mjc3NjM3ODIsLTkyMj
-Q2MTk3MywtMTgwMTE0NjMwM119
+eyJoaXN0b3J5IjpbLTE3NTE2OTA2OTYsMTQyNzc2Mzc4MiwtOT
+IyNDYxOTczLC0xODAxMTQ2MzAzXX0=
 -->
