@@ -100,13 +100,15 @@ $$
 \begin{aligned}
 \dfrac{1}{n-1} \underset{(k \times n) (n \times k)}{X^{T} X}
 = \begin{bmatrix}
-\operatorname{cov}\left(x_{1}, x_{1}\right)} & {\operatorname{cov}\left(x_{1}, x_{2}\right)} & {\cdots} & {\operatorname{cov}\left(x_{1}, x_{k}\right)} \\ 
+\operatorname{cov}\left(x_1, x_1\right) & \operatorname{cov}\left(x_{1}, x_{2}\right) & \cdots & \operatorname{cov}\left(x_{1}, x_{k}\right) 
+\end{aligned}
+$$
+
+\\ 
 {\operatorname{cov}\left(x_{2}, x_{1}\right)} & {\operatorname{cov}\left(x_{2}, x_{2}\right)} & {\cdots} & {\operatorname{cov}\left(x_{2}, x_{k}\right)} \\ 
 {\vdots} & {\vdots} & {\ddots} & {\vdots} \\ 
 {\operatorname{cov}\left(x_{k}, x_{1}\right)} & {\operatorname{cov}\left(x_{k}, x_{2}\right)} & {\cdots} & {\operatorname{cov}\left(x_{k}, x_{k}\right)}
 \end{bmatrix} = \Sigma
-\end{aligned}
-$$
 
 # 아이겐밸류는 어떻게 등장하나? 
 
@@ -202,6 +204,6 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxODg5MzQwOSwxNDI3NzYzNzgyLC05Mj
-I0NjE5NzMsLTE4MDExNDYzMDNdfQ==
+eyJoaXN0b3J5IjpbMjM3MDAyMDQ2LDE0Mjc3NjM3ODIsLTkyMj
+Q2MTk3MywtMTgwMTE0NjMwM119
 -->
