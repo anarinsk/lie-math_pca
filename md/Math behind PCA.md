@@ -98,9 +98,9 @@ $$
 
 $$
 \begin{aligned}
-\dfrac{1}{n-1} \underset{(k \times n) (n \times k)}{X^{T} X}
-= \begin{bmatrix}
-\operatorname{cov}\left(x_1, x_1\right) & \operatorname{cov}\left(x_{1}, x_{2}\right) & \cdots & \operatorname{cov}\left(x_{1}, x_{k}\right) 
+\dfrac{1}{n-1} \underset{(k \times n) (n \times k)}{X^{T} X} = 
+\begin{bmatrix}
+\text{cov}(x_1, x_1) & \text{cov}(x_1, x_2) & \cdots & \text{cov}(x_1, x_k) 
 \end{aligned}
 $$
 
@@ -204,6 +204,6 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM3MDAyMDQ2LDE0Mjc3NjM3ODIsLTkyMj
-Q2MTk3MywtMTgwMTE0NjMwM119
+eyJoaXN0b3J5IjpbLTEzNTMxMDI4MzMsMTQyNzc2Mzc4MiwtOT
+IyNDYxOTczLC0xODAxMTQ2MzAzXX0=
 -->
