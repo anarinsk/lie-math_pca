@@ -82,21 +82,18 @@ $$
 
 $$ 
 \underset{n \times k}{X} = 
- \left( \begin{array}{c}{
-x^T \\
-x^T \\
-\vdots \\
-x^T \end{array} \right)
-$$
-
- 
- $$
-\left( \begin{array}{cccc}
+ \begin{bmatrix}
+    {x^1}^T \\
+    {x^2}^T  \\
+    \vdots \\
+    {x^N}^T 
+\end{bmatrix} =  
+\begin{bmatrix}
 {x_1^1} & {x_2^1} & {\cdots} & {x_k^1} \\ 
 {x_1^2} & {x_2^2} & {\cdots} & {x_k^2} \\ 
 {\vdots} & {\vdots} & {\ddots} & {\vdots} \\ 
 {x_1^n} & {x_2^n} & {\cdots} & {x_k^n} 
-\end{array}\right) 
+\end{bmatrix}
 $$
 
 $$
@@ -204,6 +201,6 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTE2OTA2OTYsMTQyNzc2Mzc4MiwtOT
+eyJoaXN0b3J5IjpbLTEyNzcwNzg3NzgsMTQyNzc2Mzc4MiwtOT
 IyNDYxOTczLC0xODAxMTQ2MzAzXX0=
 -->
