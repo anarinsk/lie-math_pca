@@ -83,7 +83,7 @@ $$
 $$ 
 \underset{n \times k}{X} = 
  \left( \begin{array}{ccc}{
-{ {x^{1}}} }  \\ \\
+{ {x^{1'}}} }  \\ \\
 { {x^2}^T } \\ \\
 {\vdots} \\ \\
 { {x^n}^T } \end{array}\right) = 
@@ -200,6 +200,6 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk5NjE4NDg2LDE0Mjc3NjM3ODIsLTkyMj
-Q2MTk3MywtMTgwMTE0NjMwM119
+eyJoaXN0b3J5IjpbLTEwOTczOTc0MDcsMTQyNzc2Mzc4MiwtOT
+IyNDYxOTczLC0xODAxMTQ2MzAzXX0=
 -->
