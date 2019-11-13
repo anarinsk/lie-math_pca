@@ -103,16 +103,9 @@ $$
 \text{cov}(x_1, x_1) & \text{cov}(x_1, x_2) & \cdots & \text{cov}(x_1, x_k) \\
 \text{cov}(x_2, x_1) & \text{cov}(x_2, x_2) & \cdots & \text{cov}(x_2, x_k) \\
 \text{cov}(x_k, x_1) & \text{cov}(x_k, x_2) & \cdots & \text{cov}(x_k, x_k)
-\end{bmatrix}
+\end{bmatrix} = \Sigma
 \end{aligned}
 $$
-
-
-\text{cov}(x_1, x_1) & \text{cov}(x_1, x_2) & \cdots & \text{cov}(x_1, x_k) 
-{\operatorname{cov}\left(x_{2}, x_{1}\right)} & {\operatorname{cov}\left(x_{2}, x_{2}\right)} & {\cdots} & {\operatorname{cov}\left(x_{2}, x_{k}\right)} \\ 
-{\vdots} & {\vdots} & {\ddots} & {\vdots} \\ 
-{\operatorname{cov}\left(x_{k}, x_{1}\right)} & {\operatorname{cov}\left(x_{k}, x_{2}\right)} & {\cdots} & {\operatorname{cov}\left(x_{k}, x_{k}\right)}
-\end{bmatrix} = \Sigma
 
 # 아이겐밸류는 어떻게 등장하나? 
 
@@ -208,6 +201,6 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODMxNTA1OTAsMTQyNzc2Mzc4MiwtOT
-IyNDYxOTczLC0xODAxMTQ2MzAzXX0=
+eyJoaXN0b3J5IjpbLTYyMjk0NzA4MSwxNDI3NzYzNzgyLC05Mj
+I0NjE5NzMsLTE4MDExNDYzMDNdfQ==
 -->
