@@ -98,12 +98,13 @@ $$
 
 $$
 \begin{aligned}
-\dfrac{1}{n-1} \underset{(k \times kn) (n \times k)}{X^{T} X}
+\dfrac{1}{n-1} \underset{(k \times n) (n \times k)}{X^{T} X}
 = \begin{bmatrix}
 \operatorname{cov}\left(x_{1}, x_{1}\right)} & {\operatorname{cov}\left(x_{1}, x_{2}\right)} & {\cdots} & {\operatorname{cov}\left(x_{1}, x_{k}\right)} \\ 
 {\operatorname{cov}\left(x_{2}, x_{1}\right)} & {\operatorname{cov}\left(x_{2}, x_{2}\right)} & {\cdots} & {\operatorname{cov}\left(x_{2}, x_{k}\right)} \\ 
 {\vdots} & {\vdots} & {\ddots} & {\vdots} \\ 
-{\operatorname{cov}\left(x_{k}, x_{1}\right)} & {\operatorname{cov}\left(x_{k}, x_{2}\right)} & {\cdots} & {\operatorname{cov}\left(x_{k}, x_{k}\right)}\end{bmatrix} = \Sigma
+{\operatorname{cov}\left(x_{k}, x_{1}\right)} & {\operatorname{cov}\left(x_{k}, x_{2}\right)} & {\cdots} & {\operatorname{cov}\left(x_{k}, x_{k}\right)}
+\end{bmatrix} = \Sigma
 \end{aligned}
 $$
 
@@ -201,6 +202,6 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTYzNDcwNzgsMTQyNzc2Mzc4MiwtOT
-IyNDYxOTczLC0xODAxMTQ2MzAzXX0=
+eyJoaXN0b3J5IjpbMTAxODg5MzQwOSwxNDI3NzYzNzgyLC05Mj
+I0NjE5NzMsLTE4MDExNDYzMDNdfQ==
 -->
