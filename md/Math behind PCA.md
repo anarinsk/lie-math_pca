@@ -83,10 +83,10 @@ $$
 $$ 
 \underset{n \times k}{X} = 
  \left( \begin{array}{ccc}{
-{{x^1}^T}}  \\ \\
-{{x^2}^T} \\ \\
-{\vdots} \\ \\
-{{x^n}^T} \end{array}\right) = 
+{x^T \\
+{{x}^T} \\
+{\vdots} \\
+{{x}^T} } \end{array} \right) = 
 \left( \begin{array}{ccc}
 {x_1^1} & {x_2^1} & {\cdots} & {x_k^1} \\ 
 {x_1^2} & {x_2^2} & {\cdots} & {x_k^2} \\ 
@@ -200,6 +200,6 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg0NTMxMjc2LDE0Mjc3NjM3ODIsLTkyMj
-Q2MTk3MywtMTgwMTE0NjMwM119
+eyJoaXN0b3J5IjpbMTY1Nzg2NTg4MiwxNDI3NzYzNzgyLC05Mj
+I0NjE5NzMsLTE4MDExNDYzMDNdfQ==
 -->
