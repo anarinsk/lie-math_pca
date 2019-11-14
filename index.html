@@ -12,10 +12,11 @@
   <div class="stackedit__html"><p><strong>Math Behind PCA</strong></p>
 <p>2019-05-17<br>
 Jun Sok Huhh | 🏠<a href="http://lostineconomics.com">lostineconomics.com</a></p>
-<h1 id="synopsis">Synopsis</h1>
+<h1 id="tl-dr">tl; dr</h1>
 <ul>
-<li>PCA는 무엇을 최적화하는 것일까?</li>
-<li>PCA에서 왜 아이겐밸류와 아이겐벡터가 중요할까?</li>
+<li>PCA를 차원을 축소하는 방법으로 이해하지 말자. PCA 역시 다른 방법처럼 어떤 목적 함수를 최적화하는 방법의 하나이다.</li>
+<li>PCA는 <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>k</mi></mrow><annotation encoding="application/x-tex">k</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.69444em; vertical-align: 0em;"></span><span class="mord mathdefault" style="margin-right: 0.03148em;">k</span></span></span></span></span> 개의 피처를 어떤 스크린 벡터 위에 쏴서 이를 단순화하겠다는 것이다. 이렇게 투영된 이미지와 원래 벡터와의 거리를 최소화하는 과정에서 분산 최대화라는 PCA의 새로운 목적 함수가 도출된다.</li>
+<li>PCA가 스크린으로 활용할 벡터가 하나가 아니라고 할 때, 이 여러 개의 스크린 벡터를 활용해 거리를 최소화하는 과정(즉 분산의 합을 극대화하는 과정)에서 eigenvalue와 eigenvector가 등장한다.</li>
 </ul>
 <h1 id="pca">PCA</h1>
 <p>"차원의 저주"라는 표현이 있다. 언뜻 보면 자명한 이야기 같지만, 곰곰이 생각해보면 모호한 구석이 많다. 관찰 수는 많을수록 좋은데 차원은 관찰과 어떻게 다를까? 쉽게 생각해보자. 관찰 수란 활용할 수 있는 샘플의 수다. 이는 당연히 많을수록 좋다. (물론 미칠 듯이 많으면 새로운 문제가 발생하긴 하나, 대체로 우리는 샘플이 부족해서 문제를 겪는다) 하나의 샘플에서 관찰 가능한 변수가 7개라고 해보자. 샘플 수에 따라서는 적당해 보일 수 있다. 그런데, 샘플은 100 개인데, 한 샘플에서 관찰할 수 있는 포인트가 1,000 개라고 치자. 이 데이터 셋은 10만 개의 개별 포인트를 지닌 제법 큰 데이터 셋이지만 별 쓸모는 없다. 관찰 수에 비해서 개체의 차원이 지나치게 크기 때문이다. 이럴 경우 어떻게 차원을 줄이면 좋을까? 쉽게 생각할 수 있는 방법은 1,000 개의 특징들을 좀 줄여보는 것이다. 주성분분석(Principal Component Analysis)는 이를 위해 필요한 방법이다.</p>
