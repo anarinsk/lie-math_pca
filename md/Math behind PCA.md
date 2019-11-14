@@ -3,10 +3,11 @@
 2019-05-17
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 
-# Synopsis 
+# tl; dr
 
-* PCA는 무엇을 최적화하는 것일까? 
-* PCA에서 왜 아이겐밸류와 아이겐벡터가 중요할까? 
+* PCA를 차원을 축소하는 방법으로 이해하지 말자. PCA 역시 다른 방법처럼 어떤 목적 함수를 최적화하는 방법의 하나이다. 
+* PCA는 $k$ 개의 피처를 어떤 스크린 벡터 위에 쏴서 이를 단순화하겠다는 것이다. 이렇게 투영된 이미지와 원래 벡터와의 거리를 최소화하는 과정에서 분산 최대화라는 ㅖ
+* PCA가 스크린으로 활용할 벡터
 
 # PCA 
 
@@ -201,6 +202,6 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMjk0NzA4MSwxNDI3NzYzNzgyLC05Mj
-I0NjE5NzMsLTE4MDExNDYzMDNdfQ==
+eyJoaXN0b3J5IjpbLTE1NzYyMjc4ODEsLTYyMjk0NzA4MSwxND
+I3NzYzNzgyLC05MjI0NjE5NzMsLTE4MDExNDYzMDNdfQ==
 -->
