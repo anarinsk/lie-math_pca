@@ -6,8 +6,8 @@ Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 # tl; dr
 
 * PCA를 차원을 축소하는 방법으로 이해하지 말자. PCA 역시 다른 방법처럼 어떤 목적 함수를 최적화하는 방법의 하나이다. 
-* PCA는 $k$ 개의 피처를 어떤 스크린 벡터 위에 쏴서 이를 단순화하겠다는 것이다. 이렇게 투영된 이미지와 원래 벡터와의 거리를 최소화하는 과정에서 분산 최대화라는 ㅖ
-* PCA가 스크린으로 활용할 벡터
+* PCA는 $k$ 개의 피처를 어떤 스크린 벡터 위에 쏴서 이를 단순화하겠다는 것이다. 이렇게 투영된 이미지와 원래 벡터와의 거리를 최소화하는 과정에서 분산 최대화라는 PCA의 새로운 목적 함수가 도출된다. 
+* PCA가 스크린으로 활용할 벡터가 하나가 아니라고 할 때, 이 여러 개의 스크린 벡터를 활용해 거리를 최소화하는 과정(즉 분산의 합을 극대화하는 과정)에서 eigenvalue와 eigenvector가 등장한다. 
 
 # PCA 
 
@@ -202,6 +202,6 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzYyMjc4ODEsLTYyMjk0NzA4MSwxND
-I3NzYzNzgyLC05MjI0NjE5NzMsLTE4MDExNDYzMDNdfQ==
+eyJoaXN0b3J5IjpbMTgzMzc1MDMxNSwtNjIyOTQ3MDgxLDE0Mj
+c3NjM3ODIsLTkyMjQ2MTk3MywtMTgwMTE0NjMwM119
 -->
