@@ -23,7 +23,7 @@ $$
 \underset{k \times 1}{x_i} = \left[\begin{array}{c}{X^1_i - \mu^1} \\ {X^2_i - \mu^2} \\ {\vdots} \\ {X^k_i - \mu^k}\end{array}\right]
 $$ 
 
-잠깐 확인할 것이 있다. $\mu^k$는 뭘까? $j$를 예로 들어보자. 이는 하나의 관찰이다. 즉, $X^i$가 $k$ 개의 피처를 지닌 하나의 관찰이고, 이런 녀석들이 $n$ 개 있다고 해보자. 즉, 
+잠깐 확인할 것이 있다. $\mu^k$는 뭘까? $X_i$를 예로 들어보자. 이는 하나의 관찰이다. 즉, $X^i$가 $k$ 개의 피처를 지닌 하나의 관찰이고, 이런 녀석들이 $n$ 개 있다고 해보자. 즉, 
 
 $$
 \mu_j = \sum_{i=1}^{n} X^i_j ~\text{for $j = 1, 2, \dotsc, n$}.
@@ -209,8 +209,8 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTU2NDI5OTcsLTE1ODA5ODc1NTYsMj
-A1MTgxODMzMywtODQ5ODUyODMxLC0xNzExOTMyNTc4LDE4MzM3
-NTAzMTUsLTYyMjk0NzA4MSwxNDI3NzYzNzgyLC05MjI0NjE5Nz
-MsLTE4MDExNDYzMDNdfQ==
+eyJoaXN0b3J5IjpbMTQ1NjUxNzEwNywtMTU4MDk4NzU1NiwyMD
+UxODE4MzMzLC04NDk4NTI4MzEsLTE3MTE5MzI1NzgsMTgzMzc1
+MDMxNSwtNjIyOTQ3MDgxLDE0Mjc3NjM3ODIsLTkyMjQ2MTk3My
+wtMTgwMTE0NjMwM119
 -->
