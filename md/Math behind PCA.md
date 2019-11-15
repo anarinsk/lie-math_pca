@@ -71,14 +71,14 @@ $$
 여기서 잠깐. 하나의 벡터로만 프로젝션하라는 법은 없다. 프로젝션의 스크린으로 동원되는 벡터가 $w^1, w^2, \dotsc, w^k$라고 하자. 이 프로젝션을 통해 생성되는 벡터들이 이루는 부분공간은 다음과 같이 나타낼 수 있다. 
 
 $$
-\sum_{j=1}^k \underset{\mathrm{가중치}}{( x_i^j \cdot w^j) } w^i
+\sum_{j=1}^k \underset{\mathrm{가중치}}{( x_i \cdot w^j) } w^i
 $$
 
 이 녀석의 RSS를 최소화하는 문제는 어떻게 될까? 계산이 다소 복잡하니 직관만 짚고 넘어가자. 
 
 1. 앞서 스크린이 하나였던 경우와 마친가지로 $x_i$와 저 값의 내적의 분산을 최대화 해야 한다. 
 2. 만일 $w_\cdot$들이 서로 직교한다면, $w_i \cdot w_j (i \neq j)$는 0이 되어 사라질 것이고, $w_i \cdot w_i$(=1)로 구성된 텀만 만게 된다.  결국
-3. 스크린을 이루는 축들과 $x^i$의 크로스 프로덕트 값의 분산($\mathrm{Var} (x^i w_i)$)을 더한 값을 최대화하는 것이 RSS를 극소화 문제가 된다. 
+3. 스크린을 이루는 축들과 $x^i$의 크로스 프로덕트 값의 분산($\mathrm{Var} (x_i w_$)을 더한 값을 최대화하는 것이 RSS를 극소화 문제가 된다. 
 
 아래 그림이 PCA를 이해하는 데 다소 도움이 될 수 있겠다. OLS는 모델의 직선과 관찰의 유클리드 거리를 극소화하는 것이다. 반면 PCA는 특정한 벡터를 두고 이 벡터로 개별 관찰 벡터를 프로젝션 했을 때, 그 프로젝션된 이미지 벡터와 관찰 간의 거리를 최소화하는 것이다. 프로젝션이 '스크린'을 향해서 직교하는 선을 내리는 것이라는 점을 떠올리면 오른쪽 그림이 
 
@@ -209,7 +209,7 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDk0MjM0NDQsMjA2OTkzNzkyMCwxOD
+eyJoaXN0b3J5IjpbLTE3Njk2MzYyMzMsMjA2OTkzNzkyMCwxOD
 Y0NzM1MjMxLC0xNTgwOTg3NTU2LDIwNTE4MTgzMzMsLTg0OTg1
 MjgzMSwtMTcxMTkzMjU3OCwxODMzNzUwMzE1LC02MjI5NDcwOD
 EsMTQyNzc2Mzc4MiwtOTIyNDYxOTczLC0xODAxMTQ2MzAzXX0=
