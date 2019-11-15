@@ -17,7 +17,7 @@ Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 
 대체로 많은 PCA에 관한 설명들이 원래 하고 싶은 게 무엇인지에 관해 묻지 않는다. PCA란 데이터의 특성을 압축하는 방법이라는 이야기만 할 뿐. 수학적으로 말하면 목적함수에 관한 질문이고 우리는 먼저 이 질문에 집중하겠다. 
 
-대체로 통계학의 알고리듬은 목적 함수를 최적화하는 형태이다. PCA도 마찬가지다. $i$ 관찰 대상에 관한 $k$ 차원의 피처 벡터 $x^i$가 있다고 하자. 즉, $x^i$는 $k \times 1$의 칼럼 벡터이다. 앞으로 특별한 언급이 없는 이상 앞으로 $x_i$ 벡터는 $n$개의 관찰에 대한 평균으로 구성된 벡터 $\mu = [\mu_1~\mu_2~\dotsc~\mu_k]^T$를 뺀 값이라고 간주하자. 즉, $X^i$가 평균을 빼지 않은 $i$ 관찰 대상이라고 할 때, 
+대체로 통계학의 알고리듬은 목적 함수를 최적화하는 형태이다. PCA도 마찬가지다. $i$ 관찰 대상에 관한 $k$ 차원의 피처 벡터 $x_i$가 있다고 하자. 즉, $x_i$는 $k \times 1$의 칼럼 벡터이다. 앞으로 특별한 언급이 없는 이상 앞으로 $x_i$ 벡터는 $n$개의 관찰에 대한 평균으로 구성된 벡터 $\mu = [\mu_1~\mu_2~\dotsc~\mu_k]^T$를 뺀 값이라고 간주하자. 즉, $X^i$가 평균을 빼지 않은 $i$ 관찰 대상이라고 할 때, 
 
 $$
 \underset{k \times 1}{x^i} = \left[\begin{array}{c}{X^i_{1} - \mu_1} \\ {X^i_{2} - \mu_2} \\ {\vdots} \\ {X^i_{k} - \mu_k}\end{array}\right]
@@ -209,8 +209,8 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODA5ODc1NTYsMjA1MTgxODMzMywtOD
-Q5ODUyODMxLC0xNzExOTMyNTc4LDE4MzM3NTAzMTUsLTYyMjk0
-NzA4MSwxNDI3NzYzNzgyLC05MjI0NjE5NzMsLTE4MDExNDYzMD
-NdfQ==
+eyJoaXN0b3J5IjpbLTcwNTc0Njk4MiwtMTU4MDk4NzU1NiwyMD
+UxODE4MzMzLC04NDk4NTI4MzEsLTE3MTE5MzI1NzgsMTgzMzc1
+MDMxNSwtNjIyOTQ3MDgxLDE0Mjc3NjM3ODIsLTkyMjQ2MTk3My
+wtMTgwMTE0NjMwM119
 -->
