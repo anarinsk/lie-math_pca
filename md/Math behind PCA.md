@@ -76,7 +76,7 @@ $$
 
 이 녀석의 RSS를 최소화하는 문제는 어떻게 될까? 계산이 다소 복잡하니 직관만 짚고 넘어가자. 
 
-1. 앞서 스크린이 하나였던 경우와 마친가지로 $위 값의 분산을 최대화 해야 한다. 
+1. 앞서 스크린이 하나였던 경우와 마친가지로 $x_i$와 저 값의 내적의 분산을 최대화 해야 한다. 
 2. 만일 $w_\cdot$들이 서로 직교한다면, $w_i \cdot w_j (i \neq j)$는 0이 되어 사라질 것이고, $w_i \cdot w_i$(=1)로 구성된 텀만 만게 된다.  결국
 3. 스크린을 이루는 축들과 $x^i$의 크로스 프로덕트 값의 분산($\mathrm{Var} (x^i w_i)$)을 더한 값을 최대화하는 것이 RSS를 극소화 문제가 된다. 
 
@@ -209,8 +209,9 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ2OTY2OTksMjA2OTkzNzkyMCwxODY0Nz
-M1MjMxLC0xNTgwOTg3NTU2LDIwNTE4MTgzMzMsLTg0OTg1Mjgz
-MSwtMTcxMTkzMjU3OCwxODMzNzUwMzE1LC02MjI5NDcwODEsMT
-QyNzc2Mzc4MiwtOTIyNDYxOTczLC0xODAxMTQ2MzAzXX0=
+eyJoaXN0b3J5IjpbLTIxMDk0MjM0NDQsMjA2OTkzNzkyMCwxOD
+Y0NzM1MjMxLC0xNTgwOTg3NTU2LDIwNTE4MTgzMzMsLTg0OTg1
+MjgzMSwtMTcxMTkzMjU3OCwxODMzNzUwMzE1LC02MjI5NDcwOD
+EsMTQyNzc2Mzc4MiwtOTIyNDYxOTczLC0xODAxMTQ2MzAzXX0=
+
 -->
