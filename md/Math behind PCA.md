@@ -30,7 +30,7 @@ $$
 $$
 $\mu_\cdot$은 해당 $k$ 개의 해당 피처의 평균이다. 
 
-이제 해당 피쳐를 쏠 스크린으로 활용할 유닛 벡터를 $w$라고 하자. 유닛 벡터란 $w \cdot w = 1$를 의미한다. 여기서 스크린이라는 의미는 개별 관찰이 지니는 특징을 벡터로 투영해서 그 특징을 요약하겠다는 것이다. 우리에게 익숙한 회귀분석 역시 $y_i$라는 관찰을 $\mathbf X$라는 설명변수로 프로젝션해서 계수를 구하는 방법이다. 좌우간, $x^i$를 $w$로 프로젝션 하면 다음과 같다.
+이제 해당 피쳐를 쏠 스크린으로 활용할 유닛 벡터를 $w$라고 하자. 유닛 벡터란 $w \cdot w = 1$를 의미한다. 여기서 스크린이라는 의미는 개별 관찰이 지니는 특징을 이 벡터로 프로젝션해서 그 특징을 요약하겠다는 것이다. 우리에게 익숙한 회귀분석 역시 $y_i$라는 관찰을 설명변수 $\mathbf X$가 형성하는 선형 부분으로 프로젝션하는 방법이다. 좌우간, $x_i$를 $w$로 프로젝션 하면 다음과 같다.
 
 $$
 \operatorname{Proj}_{w}(x^i) = \dfrac{w \cdot x^i}{\Vert w \Vert} = w \cdot x^i
@@ -209,7 +209,7 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NjUxNzEwNywtMTU4MDk4NzU1NiwyMD
+eyJoaXN0b3J5IjpbLTc3MzY0ODQyNSwtMTU4MDk4NzU1NiwyMD
 UxODE4MzMzLC04NDk4NTI4MzEsLTE3MTE5MzI1NzgsMTgzMzc1
 MDMxNSwtNjIyOTQ3MDgxLDE0Mjc3NjM3ODIsLTkyMjQ2MTk3My
 wtMTgwMTE0NjMwM119
