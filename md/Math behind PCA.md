@@ -55,8 +55,8 @@ $$
 
 $$
 \begin{aligned}
-\mathrm{RSS}(w) & = \sum_{i=1}^n \left( \Vert x^i \Vert^2 - 2(w \cdot x^i)^2 + 1 \right)  \\
-& = \left(  n +  \sum_{i=1}^n \Vert x^i \Vert^2 \right) - 2 \sum_{i=1}^n  (w \cdot x^i)^2
+\mathrm{RSS}(w) & = \sum_{i=1}^n \left( \Vert x_i \Vert^2 - 2(w \cdot x_i)^2 + 1 \right)  \\
+& = \left(  n +  \sum_{i=1}^n \Vert x_i \Vert^2 \right) - 2 \sum_{i=1}^n  (w \cdot x_i)^2
 \end{aligned}
 $$
 
@@ -209,7 +209,7 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjI3MDQxMDgsLTE1ODA5ODc1NTYsMj
+eyJoaXN0b3J5IjpbLTEzNDQzNjQyOTgsLTE1ODA5ODc1NTYsMj
 A1MTgxODMzMywtODQ5ODUyODMxLC0xNzExOTMyNTc4LDE4MzM3
 NTAzMTUsLTYyMjk0NzA4MSwxNDI3NzYzNzgyLC05MjI0NjE5Nz
 MsLTE4MDExNDYzMDNdfQ==
