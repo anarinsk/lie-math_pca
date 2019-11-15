@@ -20,10 +20,10 @@ Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 대체로 통계학의 알고리듬은 목적 함수를 최적화하는 형태이다. PCA도 마찬가지다. 관찰 대상 $i$에 관한 $k$ 차원의 피처 벡터 $x_i$가 있다고 하자. $x_i$는 $k \times 1$의 칼럼 벡터이다. 앞으로 특별한 언급이 없는 이상 앞으로 $x_i$ 벡터는 $n$개의 관찰에 대한 평균으로 구성된 벡터 $\mu = [\mu^1~\mu^2~\dotsc~\mu^k]^T$를 뺀 값이라고 간주하자. 즉, $X_i$가 평균을 빼지 않은 $i$ 라고 할 때, 
 
 $$
-\underset{k \times 1}{x_i} = \left[\begin{array}{c}{X^1_i - \mu^1} \\ {X^2 - \mu^2} \\ {\vdots} \\ {X^i_{k} - \mu_k}\end{array}\right]
+\underset{k \times 1}{x_i} = \left[\begin{array}{c}{X^1_i - \mu^1} \\ {X^2_i - \mu^2} \\ {\vdots} \\ {X^k_i - \mu^k}\end{array}\right]
 $$ 
 
-잠깐 확인할 것이 있다. $\mu_j$는 뭘까? $X^i$를 예로 들어보자. 이는 하나의 관찰이다. 즉, $X^i$가 $k$ 개의 피처를 지닌 하나의 관찰이고, 이런 녀석들이 $n$ 개 있다고 해보자. 즉, 
+잠깐 확인할 것이 있다. $\mu^k$는 뭘까? $j$를 예로 들어보자. 이는 하나의 관찰이다. 즉, $X^i$가 $k$ 개의 피처를 지닌 하나의 관찰이고, 이런 녀석들이 $n$ 개 있다고 해보자. 즉, 
 
 $$
 \mu_j = \sum_{i=1}^{n} X^i_j ~\text{for $j = 1, 2, \dotsc, n$}.
@@ -209,7 +209,7 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzMzNDk3NjMsLTE1ODA5ODc1NTYsMj
+eyJoaXN0b3J5IjpbLTE4NTU2NDI5OTcsLTE1ODA5ODc1NTYsMj
 A1MTgxODMzMywtODQ5ODUyODMxLC0xNzExOTMyNTc4LDE4MzM3
 NTAzMTUsLTYyMjk0NzA4MSwxNDI3NzYzNzgyLC05MjI0NjE5Nz
 MsLTE4MDExNDYzMDNdfQ==
