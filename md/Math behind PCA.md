@@ -97,10 +97,10 @@ $$
     {x_n}^T 
 \end{bmatrix} =  
 \begin{bmatrix}
-{x_1^1} & {x_1^2} & {\cdots} & {x_1^ \\ 
-{x_1^2} & {x_2^2} & {\cdots} & {x_k^2} \\ 
+{x_1^1} & {x_1^2} & {\cdots} & {x_1^k} \\ 
+{x_2^1} & {x_2^2} & {\cdots} & {x_2^k}\\ 
 {\vdots} & {\vdots} & {\ddots} & {\vdots} \\ 
-{x_1^n} & {x_2^n} & {\cdots} & {x_k^n} 
+{x_n^1} & {x_n^2} & {\cdots} & {x_n^k
 \end{bmatrix}
 $$
 
@@ -209,7 +209,7 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjgzODI5MSwyMDY5OTM3OTIwLDE4Nj
+eyJoaXN0b3J5IjpbMTEwOTI3MTQ2OCwyMDY5OTM3OTIwLDE4Nj
 Q3MzUyMzEsLTE1ODA5ODc1NTYsMjA1MTgxODMzMywtODQ5ODUy
 ODMxLC0xNzExOTMyNTc4LDE4MzM3NTAzMTUsLTYyMjk0NzA4MS
 wxNDI3NzYzNzgyLC05MjI0NjE5NzMsLTE4MDExNDYzMDNdfQ==
