@@ -66,7 +66,7 @@ $$
 \dfrac{1}{n} \sum_{i=1}^n (w \cdot x_i)^2 = \left(\dfrac{1}{n}  \sum_{i=1}^n w \cdot x_i \right)^2 + \mathrm{Var}[w \cdot x_i]
 $$
 
-이 식이 성립하는 이유는 일반적으로 $\mathrm{Var}(y)= \mathrm{E}(y^2) - (\mathrm{E}(y))^2$이 성립하기 때문이다.  그리고 앞에서 보았듯이 $\mathrm{E} (w \cdot x^i) = 0$ 성립한다. 따라서 RSS를 최소화한다는 것은 $\mathrm{Var}(\cdot)$을 최대화하는 것과 같다. 
+이 식이 성립하는 이유는 일반적으로 $\mathrm{Var}(y)= \mathrm{E}(y^2) - (\mathrm{E}(y))^2$이 성립하기 때문이다.  그리고 앞에서 보았듯이 $\mathrm{E} (w \cdot x_i) = 0$ 성립한다. 따라서 RSS를 최소화한다는 것은 $\mathrm{Var}(\cdot)$을 최대화하는 것과 같다. 
 
 여기서 잠깐. 하나의 벡터로만 프로젝션하라는 법은 없다. 프로젝션의 스크린으로 동원되는 벡터가 $w^1, w^2, \dotsc, w^k$라고 하자. 이 프로젝션을 통해 생성되는 벡터들이 이루는 부분공간은 다음과 같이 나타낼 수 있다. 
 
@@ -209,8 +209,8 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NDczNTIzMSwtMTU4MDk4NzU1NiwyMD
-UxODE4MzMzLC04NDk4NTI4MzEsLTE3MTE5MzI1NzgsMTgzMzc1
-MDMxNSwtNjIyOTQ3MDgxLDE0Mjc3NjM3ODIsLTkyMjQ2MTk3My
-wtMTgwMTE0NjMwM119
+eyJoaXN0b3J5IjpbMjA2OTkzNzkyMCwxODY0NzM1MjMxLC0xNT
+gwOTg3NTU2LDIwNTE4MTgzMzMsLTg0OTg1MjgzMSwtMTcxMTkz
+MjU3OCwxODMzNzUwMzE1LC02MjI5NDcwODEsMTQyNzc2Mzc4Mi
+wtOTIyNDYxOTczLC0xODAxMTQ2MzAzXX0=
 -->
