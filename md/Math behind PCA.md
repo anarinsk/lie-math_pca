@@ -100,7 +100,7 @@ $$
 {x_1^1} & {x_1^2} & {\cdots} & {x_1^k} \\ 
 {x_2^1} & {x_2^2} & {\cdots} & {x_2^k}\\ 
 {\vdots} & {\vdots} & {\ddots} & {\vdots} \\ 
-{x_n^1} & {x_n^2} & {\cdots} & {x_n^k
+{x_n^1} & {x_n^2} & {\cdots} & {x_n^k}
 \end{bmatrix}
 $$
 
@@ -108,9 +108,9 @@ $$
 \begin{aligned}
 \dfrac{1}{n-1} \underset{(k \times n) (n \times k)}{X^{T} X} = 
 \begin{bmatrix}
-\text{cov}(x_1, x_1) & \text{cov}(x_1, x_2) & \cdots & \text{cov}(x_1, x_k) \\
-\text{cov}(x_2, x_1) & \text{cov}(x_2, x_2) & \cdots & \text{cov}(x_2, x_k) \\
-\text{cov}(x_k, x_1) & \text{cov}(x_k, x_2) & \cdots & \text{cov}(x_k, x_k)
+\text{cov}(x^1, x^1) & \text{cov}(x^1, x^2) & \cdots & \text{cov}(x^1, x^k) \\
+\text{cov}(x^2, x^1) & \text{cov}(x^2, x^2) & \cdots & \text{cov}(x^2, x^k) \\
+\text{cov}(x^k, x^1) & \text{cov}(x^k, x^2) & \cdots & \text{cov}(x^k, x^k)
 \end{bmatrix} = \Sigma
 \end{aligned}
 $$
@@ -209,9 +209,9 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwOTI3MTQ2OCwyMDY5OTM3OTIwLDE4Nj
-Q3MzUyMzEsLTE1ODA5ODc1NTYsMjA1MTgxODMzMywtODQ5ODUy
-ODMxLC0xNzExOTMyNTc4LDE4MzM3NTAzMTUsLTYyMjk0NzA4MS
-wxNDI3NzYzNzgyLC05MjI0NjE5NzMsLTE4MDExNDYzMDNdfQ==
+eyJoaXN0b3J5IjpbLTE0MDYxMjk4NzcsMjA2OTkzNzkyMCwxOD
+Y0NzM1MjMxLC0xNTgwOTg3NTU2LDIwNTE4MTgzMzMsLTg0OTg1
+MjgzMSwtMTcxMTkzMjU3OCwxODMzNzUwMzE1LC02MjI5NDcwOD
+EsMTQyNzc2Mzc4MiwtOTIyNDYxOTczLC0xODAxMTQ2MzAzXX0=
 
 -->
