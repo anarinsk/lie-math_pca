@@ -28,7 +28,7 @@ $$
 $$
 \mu_j = \sum_{i=1}^{n} X^i_j ~\text{for $j = 1, 2, \dotsc, n$}.
 $$
-$\mu_\cdot$은 해당 $k$의 해당 피처의 평균이다. 
+$\mu_\cdot$은 해당 $k$ 개의 해당 피처의 평균이다. 
 
 이제 해당 피쳐를 쏠 스크린으로 활용할 유닛 벡터를 $w$라고 하자. 유닛 벡터란 $w \cdot w = 1$를 의미한다. 여기서 스크린이라는 의미는 개별 관찰이 지니는 특징을 벡터로 투영해서 그 특징을 요약하겠다는 것이다. 우리에게 익숙한 회귀분석 역시 $y_i$라는 관찰을 $\mathbf X$라는 설명변수로 프로젝션해서 계수를 구하는 방법이다. 좌우간, $x^i$를 $w$로 프로젝션 하면 다음과 같다.
 
@@ -209,7 +209,7 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0OTg1MjgzMSwtMTcxMTkzMjU3OCwxOD
-MzNzUwMzE1LC02MjI5NDcwODEsMTQyNzc2Mzc4MiwtOTIyNDYx
-OTczLC0xODAxMTQ2MzAzXX0=
+eyJoaXN0b3J5IjpbMjA1MTgxODMzMywtODQ5ODUyODMxLC0xNz
+ExOTMyNTc4LDE4MzM3NTAzMTUsLTYyMjk0NzA4MSwxNDI3NzYz
+NzgyLC05MjI0NjE5NzMsLTE4MDExNDYzMDNdfQ==
 -->
