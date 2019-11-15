@@ -71,10 +71,10 @@ $$
 여기서 잠깐. 하나의 벡터로만 프로젝션하라는 법은 없다. 프로젝션의 스크린으로 동원되는 벡터가 $w^1, w^2, \dotsc, w^k$라고 하자. 이 프로젝션을 통해 생성되는 벡터들이 이루는 부분공간은 다음과 같이 나타낼 수 있다. 
 
 $$
-\sum_{i=j} ^k \underset{\mathrm{가중치}}{( x_i^j \cdot w^j) } w^i
+\sum_{j=1}^k \underset{\mathrm{가중치}}{( x_i^j \cdot w^j) } w^i
 $$
 
-이 녀석의 RSS를 최소화하는 문제는 어떻게 될까? 만일 $w_\cdot$들이 서로 직교한다면, 벡터들의 크로스 프로덕트들은 0이 되어 사라지게 된다. 
+이 녀석의 RSS를 최소화하는 문제는 어떻게 될까? 계산이 다소 복잡하니 ㅈ만일 $w_\cdot$들이 서로 직교한다면, 벡터들의 크로스 프로덕트들은 0이 되어 사라지게 된다. 
 
 1. 앞서 스크린이 하나였던 경우와 마친가지로 위 값의 분산을 최대화 해야 한다. 
 2. 만일 $w_\cdot$들이 서로 직교한다면, $w_i \cdot w_j (i \neq j)$는 0이 되어 사라질 것이고, $w_i \cdot w_i$(=1)로 구성된 텀만 만게 된다.  결국
@@ -209,9 +209,8 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTAzNTk4OSwyMDY5OTM3OTIwLDE4Nj
-Q3MzUyMzEsLTE1ODA5ODc1NTYsMjA1MTgxODMzMywtODQ5ODUy
-ODMxLC0xNzExOTMyNTc4LDE4MzM3NTAzMTUsLTYyMjk0NzA4MS
-wxNDI3NzYzNzgyLC05MjI0NjE5NzMsLTE4MDExNDYzMDNdfQ==
-
+eyJoaXN0b3J5IjpbNjMyMTI2MjIzLDIwNjk5Mzc5MjAsMTg2ND
+czNTIzMSwtMTU4MDk4NzU1NiwyMDUxODE4MzMzLC04NDk4NTI4
+MzEsLTE3MTE5MzI1NzgsMTgzMzc1MDMxNSwtNjIyOTQ3MDgxLD
+E0Mjc3NjM3ODIsLTkyMjQ2MTk3MywtMTgwMTE0NjMwM119
 -->
