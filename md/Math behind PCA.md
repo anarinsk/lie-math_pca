@@ -33,13 +33,13 @@ $\mu_\cdot$은 해당 $k$ 개의 해당 피처의 평균이다.
 이제 해당 피쳐를 쏠 스크린으로 활용할 유닛 벡터를 $w$라고 하자. 유닛 벡터란 $w \cdot w = 1$를 의미한다. 여기서 스크린이라는 의미는 개별 관찰이 지니는 특징을 이 벡터로 프로젝션해서 그 특징을 요약하겠다는 것이다. 우리에게 익숙한 회귀분석 역시 $y_i$라는 관찰을 설명변수 $\mathbf X$가 형성하는 선형 부분공간으로 프로젝션하는 방법이다. $x_i$를 $w$로 프로젝션 하면 다음과 같다.
 
 $$
-\operatorname{Proj}_{w}(x_i) = \dfrac{w \cdot x_i}{\Vert w \Vert} = w \cdot x_i
+\operatorname{Proj}_{w}(x_i) = \dfrac{w \cdot x_i}{\Vert w \Vert} = w \cdot x_ i
 $$
 
-이 프로젝션의 벡터 공간 $w$에서의 좌표는 $(w \cdot x^i) w$가 된다. 그리고 이 프로젝션 스칼라 값 혹은 프로젝션 벡터의  기댓값은  아래와 같이 0이 된다. 물론 벡터의 경우에는 스칼라 대신 $k \times 1$의 0 벡터가 된다. 
+이 프로젝션의 벡터 공간 $w$에서의 이미지는 $(w \cdot x_i) w$가 된다. 그리고 이 프로젝션 스칼라 값 혹은 프로젝션 벡터의  기댓값은  아래와 같이 0이 된다. 물론 벡터의 경우에는 스칼라 대신 $k \times 1$의 0 벡터가 된다. 
 
 $$
-\dfrac{1}{n} \sum^n_{i=1} (w \cdot x^i) = \left( \dfrac{1}{n} \sum_{i=1}^n x^i \right)\cdot w = 0 \cdot w
+\dfrac{1}{n} \sum^n_{i=1} (w \cdot x_i) = \left( \dfrac{1}{n} \sum_{i=1}^n xi \right)\cdot w = 0 \cdot w
 $$
 
 원 자료 즉, 벡터 $x_i$와 이 프로젝션 좌표의의 유클리드 거리를 구해보자. 
@@ -209,7 +209,7 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzODAxNzU3NSwtMTU4MDk4NzU1NiwyMD
+eyJoaXN0b3J5IjpbMTA3NjkxNDQ5NSwtMTU4MDk4NzU1NiwyMD
 UxODE4MzMzLC04NDk4NTI4MzEsLTE3MTE5MzI1NzgsMTgzMzc1
 MDMxNSwtNjIyOTQ3MDgxLDE0Mjc3NjM3ODIsLTkyMjQ2MTk3My
 wtMTgwMTE0NjMwM119
