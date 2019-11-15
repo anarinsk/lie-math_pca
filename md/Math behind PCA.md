@@ -78,7 +78,7 @@ $$
 
 1. 앞서 스크린이 하나였던 경우와 마친가지로 $x_i$와 저 값의 내적의 분산을 최대화 해야 한다. 
 2. 만일 $w_\cdot$들이 서로 직교한다면, $w_i \cdot w_j (i \neq j)$는 0이 되어 사라질 것이고, $w_i \cdot w_i$(=1)로 구성된 텀만 만게 된다.  결국
-3. 스크린을 이루는 축들과 $x_i$의 크로스 프로덕트 값의 분산($\mathrm{Var} (x_i \cdot w^j)$)을 더한 값을 최대화하는 것이 RSS를 극소화 문제가 된다. 
+3. 스크린을 이루는 축들과 $x_i$의 크로스 프로덕트 값의 분산($\mathrm{Var} (x_i \cdot w^j)$)을 더한 값을 최대화하는 것이 RSS를 극소화 문제가 된다. 즉, 각각 $w^j$와 $x_i$의 닷 프로덕트의 분산을 최대화하면 된다. 
 
 아래 그림이 PCA를 이해하는 데 다소 도움이 될 수 있겠다. OLS는 모델의 직선과 관찰의 유클리드 거리를 극소화하는 것이다. 반면 PCA는 특정한 벡터를 두고 이 벡터로 개별 관찰 벡터를 프로젝션 했을 때, 그 프로젝션된 이미지 벡터와 관찰 간의 거리를 최소화하는 것이다. 프로젝션이 '스크린'을 향해서 직교하는 선을 내리는 것이라는 점을 떠올리면 오른쪽 그림이 
 
@@ -86,7 +86,7 @@ $$
 
 # 분산-공분산 행렬 
 
-이제 왜 분산이 등장하는지는 대충 이해가 될 것이라고 생각한다.  $X$를 통해 쉽게 분산-공분산 행렬을 나타낼 수 있다. $x_i^j$ 에서 $i (=1,2,\dotsc, n)$는 관찰을, $j(=1,2,\dotsc,k)$는 피쳐를 나타낸다. 
+이제 왜 분산이 등장하는지는 대충 이해가 될 것이라고 생각한다.  $X$를 통해 쉽게 분산-공분산 행렬을 나타낼 수 있다. $x_i^jj$ 에서 $i (=1,2,\dotsc, n)$는 관찰을, $j(=1,2,\dotsc,k)$는 피쳐를 나타낸다. 
 
 $$ 
 \underset{n \times k}{X} = 
@@ -209,8 +209,9 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzEwNDIzNDAwLDIwNjk5Mzc5MjAsMTg2ND
-czNTIzMSwtMTU4MDk4NzU1NiwyMDUxODE4MzMzLC04NDk4NTI4
-MzEsLTE3MTE5MzI1NzgsMTgzMzc1MDMxNSwtNjIyOTQ3MDgxLD
-E0Mjc3NjM3ODIsLTkyMjQ2MTk3MywtMTgwMTE0NjMwM119
+eyJoaXN0b3J5IjpbMTUzMzAyNTE4NiwyMDY5OTM3OTIwLDE4Nj
+Q3MzUyMzEsLTE1ODA5ODc1NTYsMjA1MTgxODMzMywtODQ5ODUy
+ODMxLC0xNzExOTMyNTc4LDE4MzM3NTAzMTUsLTYyMjk0NzA4MS
+wxNDI3NzYzNzgyLC05MjI0NjE5NzMsLTE4MDExNDYzMDNdfQ==
+
 -->
