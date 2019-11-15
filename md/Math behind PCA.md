@@ -86,18 +86,18 @@ $$
 
 # 분산-공분산 행렬 
 
-이제 왜 분산이 등장하는지는 대충 이해가 될 것이라고 생각한다.  $X$를 통해 쉽게 분산-공분산 행렬을 나타낼 수 있다. $x_i^jj$ 에서 $i (=1,2,\dotsc, n)$는 관찰을, $j(=1,2,\dotsc,k)$는 피쳐를 나타낸다. 
+이제 왜 분산이 등장하는지는 대충 이해가 될 것이라고 생각한다.  $X$를 통해 쉽게 분산-공분산 행렬을 나타낼 수 있다. $x_i^j$ 에서 $i (=1,2,\dotsc, n)$는 관찰을, $j(=1,2,\dotsc,k)$는 피쳐를 나타낸다. 
 
 $$ 
 \underset{n \times k}{X} = 
  \begin{bmatrix}
-    {x^1}^T \\
-    {x^2}^T  \\
+    {x_1}^T \\
+    {x_2}^T  \\
     \vdots \\
-    {x^N}^T 
+    {x_n}^T 
 \end{bmatrix} =  
 \begin{bmatrix}
-{x_1^1} & {x_2^1} & {\cdots} & {x_k^1} \\ 
+{x_1^1} & {x_1^2} & {\cdots} & {x_1^ \\ 
 {x_1^2} & {x_2^2} & {\cdots} & {x_k^2} \\ 
 {\vdots} & {\vdots} & {\ddots} & {\vdots} \\ 
 {x_1^n} & {x_2^n} & {\cdots} & {x_k^n} 
@@ -209,7 +209,7 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMzAyNTE4NiwyMDY5OTM3OTIwLDE4Nj
+eyJoaXN0b3J5IjpbLTIwNjgzODI5MSwyMDY5OTM3OTIwLDE4Nj
 Q3MzUyMzEsLTE1ODA5ODc1NTYsMjA1MTgxODMzMywtODQ5ODUy
 ODMxLC0xNzExOTMyNTc4LDE4MzM3NTAzMTUsLTYyMjk0NzA4MS
 wxNDI3NzYzNzgyLC05MjI0NjE5NzMsLTE4MDExNDYzMDNdfQ==
