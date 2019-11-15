@@ -23,12 +23,12 @@ $$
 \underset{k \times 1}{x^i} = \left[\begin{array}{c}{X^i_{1} - \mu_1} \\ {X^i_{2} - \mu_2} \\ {\vdots} \\ {X^i_{k} - \mu_k}\end{array}\right]
 $$ 
 
-잠깐 확인할 것이 있다. $\mu_j$는 뭘까? $X^i$를 예로 들어보자. 이는 하나의 관찰이다. 즉, $X^i$가 $k$ 개의 피처를 지닌 하나의 관찰이고, 이런 녀석들이 $n$ 개 있다고 해보자. 즉, 이에 따르면, 
+잠깐 확인할 것이 있다. $\mu_j$는 뭘까? $X^i$를 예로 들어보자. 이는 하나의 관찰이다. 즉, $X^i$가 $k$ 개의 피처를 지닌 하나의 관찰이고, 이런 녀석들이 $n$ 개 있다고 해보자. 즉, 
 
 $$
-\mu_j = \sum_{i=1}^{n} 
+\mu_j = \sum_{i=1}^{n} X^i_j ~\text{for $j = 1, 2, \dotsc, n$}.
 $$
-
+$\mu_\cdot$은 해당 $k$ 개
 이제 해당 피쳐를 쏠 스크린으로 활용할 유닛 벡터를 $w$라고 하자. 유닛 벡터란 $w \cdot w = 1$를 의미한다. 여기서 스크린이라는 의미는 개별 관찰이 지니는 특징을 벡터로 투영해서 그 특징을 요약하겠다는 것이다. 우리에게 익숙한 회귀분석 역시 $y_i$라는 관찰을 $\mathbf X$라는 설명변수로 프로젝션해서 계수를 구하는 방법이다. 좌우간, $x^i$를 $w$로 프로젝션 하면 다음과 같다.
 
 $$
@@ -208,7 +208,7 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMzg2NTcyMywtMTcxMTkzMjU3OCwxOD
+eyJoaXN0b3J5IjpbMTk5NDMyMDg2MywtMTcxMTkzMjU3OCwxOD
 MzNzUwMzE1LC02MjI5NDcwODEsMTQyNzc2Mzc4MiwtOTIyNDYx
 OTczLC0xODAxMTQ2MzAzXX0=
 -->
