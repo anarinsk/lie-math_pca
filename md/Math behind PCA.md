@@ -74,9 +74,9 @@ $$
 \sum_{j=1}^k \underset{\mathrm{가중치}}{( x_i^j \cdot w^j) } w^i
 $$
 
-이 녀석의 RSS를 최소화하는 문제는 어떻게 될까? 계산이 다소 복잡하니 ㅈ만일 $w_\cdot$들이 서로 직교한다면, 벡터들의 크로스 프로덕트들은 0이 되어 사라지게 된다. 
+이 녀석의 RSS를 최소화하는 문제는 어떻게 될까? 계산이 다소 복잡하니 직관만 짚고 넘어가자. 
 
-1. 앞서 스크린이 하나였던 경우와 마친가지로 위 값의 분산을 최대화 해야 한다. 
+1. 앞서 스크린이 하나였던 경우와 마친가지로 $위 값의 분산을 최대화 해야 한다. 
 2. 만일 $w_\cdot$들이 서로 직교한다면, $w_i \cdot w_j (i \neq j)$는 0이 되어 사라질 것이고, $w_i \cdot w_i$(=1)로 구성된 텀만 만게 된다.  결국
 3. 스크린을 이루는 축들과 $x^i$의 크로스 프로덕트 값의 분산($\mathrm{Var} (x^i w_i)$)을 더한 값을 최대화하는 것이 RSS를 극소화 문제가 된다. 
 
@@ -209,8 +209,8 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMyMTI2MjIzLDIwNjk5Mzc5MjAsMTg2ND
-czNTIzMSwtMTU4MDk4NzU1NiwyMDUxODE4MzMzLC04NDk4NTI4
-MzEsLTE3MTE5MzI1NzgsMTgzMzc1MDMxNSwtNjIyOTQ3MDgxLD
-E0Mjc3NjM3ODIsLTkyMjQ2MTk3MywtMTgwMTE0NjMwM119
+eyJoaXN0b3J5IjpbNjQ2OTY2OTksMjA2OTkzNzkyMCwxODY0Nz
+M1MjMxLC0xNTgwOTg3NTU2LDIwNTE4MTgzMzMsLTg0OTg1Mjgz
+MSwtMTcxMTkzMjU3OCwxODMzNzUwMzE1LC02MjI5NDcwODEsMT
+QyNzc2Mzc4MiwtOTIyNDYxOTczLC0xODAxMTQ2MzAzXX0=
 -->
