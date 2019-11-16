@@ -28,7 +28,7 @@ $$
 $$
 \mu^j = \sum_{i=1}^{n} X^j_i ~\text{for $j = 1, 2, \dotsc, k$}.
 $$
-$\mu^\cdot$은 $k$  개가 있고, $$ 해당 피처의 평균이다. 
+$\mu^\cdot$은 각 $n$ 개가 있는 해당 피처의 평균이다. 
 
 이제 해당 피쳐를 쏠 스크린으로 활용할 유닛 벡터를 $w$라고 하자. 유닛 벡터란 $w \cdot w = 1$를 의미한다. 여기서 스크린이라는 의미는 개별 관찰이 지니는 특징을 이 벡터로 프로젝션해서 그 특징을 요약하겠다는 것이다. 우리에게 익숙한 회귀분석 역시 $y_i$라는 관찰을 설명변수 $\mathbf X$가 형성하는 선형 부분공간으로 프로젝션하는 방법이다. $x_i$를 $w$로 프로젝션 하면 다음과 같다.
 
@@ -232,11 +232,11 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTY3MzI4MjYsLTEzNzIxNDI2ODQsMT
-A2Nzk3ODMzNiwyMTA1OTczODc2LC03ODQzMjY4NjEsLTc3NzUz
-MDkyMSw2MDQ5Mjc1MSwtMTIxMzc2OTUyOSwyNTY0MDEyNzIsLT
-E0MDYxMjk4NzcsMjA2OTkzNzkyMCwxODY0NzM1MjMxLC0xNTgw
-OTg3NTU2LDIwNTE4MTgzMzMsLTg0OTg1MjgzMSwtMTcxMTkzMj
-U3OCwxODMzNzUwMzE1LC02MjI5NDcwODEsMTQyNzc2Mzc4Miwt
-OTIyNDYxOTczXX0=
+eyJoaXN0b3J5IjpbLTE5NTU1MTE4NiwtMTM3MjE0MjY4NCwxMD
+Y3OTc4MzM2LDIxMDU5NzM4NzYsLTc4NDMyNjg2MSwtNzc3NTMw
+OTIxLDYwNDkyNzUxLC0xMjEzNzY5NTI5LDI1NjQwMTI3MiwtMT
+QwNjEyOTg3NywyMDY5OTM3OTIwLDE4NjQ3MzUyMzEsLTE1ODA5
+ODc1NTYsMjA1MTgxODMzMywtODQ5ODUyODMxLC0xNzExOTMyNT
+c4LDE4MzM3NTAzMTUsLTYyMjk0NzA4MSwxNDI3NzYzNzgyLC05
+MjI0NjE5NzNdfQ==
 -->
