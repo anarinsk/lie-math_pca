@@ -196,7 +196,12 @@ $x_i$와 $w^j$ 모두 $k \times 1$ 벡터임을 확인하고 가자. 이 녀석�
 
 1. 앞서 스크린이 하나였던 경우와 마친가지로 $x_i$와 저 값의 내적의 분산을 최대화 해야 한다. 
 2. 만일 $w_\cdot$들이 서로 직교한다면, $w_i \cdot w_j (i \neq j)$는 0이 되어 사라질 것이고, $w_i \cdot w_i$(=1)로 구성된 텀만 만게 된다.  결국
-3. 스크린을 이루는 축들과 $x_i$의 크로스 프로덕트 값의 분산($\mathrm{Var} (x_i \cdot w^j)$)을 더한 값을 최대화하는 것이 RSS를 극소화 문제가 된다. 즉, 각각 $w^j$와 $x_i$의 닷 프로덕트의 분산을 최대화하면 된다. 
+3. 스크린을 이루는 축들과 $x_i$의 크로스 프로덕트 값의 분산($\mathrm{Var} (x_i \cdot w^j)$)을 더한 값을 최대화하는 것이 RSS를 극소화 문제가 된다. 즉, 각각 $w^j$와 $x_i$의 닷 프로덕트의 분산을 최대화하면 된다. 즉, 
+
+$$
+\Var[\sum_{j=1}^k {( x_i \cdot w^j) } w^j] = \sum_{j=1}^k {\lambda^j} w^i 
+$$
+
 
 아래 그림이 PCA를 이해하는 데 다소 도움이 될 수 있겠다. OLS는 모델의 직선과 관찰의 유클리드 거리를 극소화하는 것이다. 반면 PCA는 특정한 벡터를 두고 이 벡터로 개별 관찰 벡터를 프로젝션 했을 때, 그 프로젝션된 이미지 벡터와 관찰 간의 거리를 최소화하는 것이다. 프로젝션이 '스크린'을 향해서 직교하는 선을 내리는 것이라는 점을 떠올리면 오른쪽 그림이 
 
@@ -226,10 +231,10 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NzUzMDkyMSw2MDQ5Mjc1MSwtMTIxMz
-c2OTUyOSwyNTY0MDEyNzIsLTE0MDYxMjk4NzcsMjA2OTkzNzky
-MCwxODY0NzM1MjMxLC0xNTgwOTg3NTU2LDIwNTE4MTgzMzMsLT
-g0OTg1MjgzMSwtMTcxMTkzMjU3OCwxODMzNzUwMzE1LC02MjI5
-NDcwODEsMTQyNzc2Mzc4MiwtOTIyNDYxOTczLC0xODAxMTQ2Mz
-AzXX0=
+eyJoaXN0b3J5IjpbLTE3OTQ5NDc4NTIsLTc3NzUzMDkyMSw2MD
+Q5Mjc1MSwtMTIxMzc2OTUyOSwyNTY0MDEyNzIsLTE0MDYxMjk4
+NzcsMjA2OTkzNzkyMCwxODY0NzM1MjMxLC0xNTgwOTg3NTU2LD
+IwNTE4MTgzMzMsLTg0OTg1MjgzMSwtMTcxMTkzMjU3OCwxODMz
+NzUwMzE1LC02MjI5NDcwODEsMTQyNzc2Mzc4MiwtOTIyNDYxOT
+czLC0xODAxMTQ2MzAzXX0=
 -->
