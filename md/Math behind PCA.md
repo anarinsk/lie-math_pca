@@ -105,7 +105,7 @@ $$
 \text{cov}(x^i, x^j) = \dfrac{1}{n-1}\sum_{k=1}^{n} x^i_k x^j_k
 $$
 
-## eigenva는 어떻게 등장하나? 
+## eigenvalue는 어떻게 등장하나? 
 
 임의의 단위 벡터 $w$와 그 프로젝션을 다시 적어보자. 표기를 간단히 하기 위해서 상첨자는 생략한다. 이제 하나의 벡터가 아니라 $X$라는 매트릭스 전체에 대해서 프로젝션을 하면 아래와 같다.
 
@@ -137,7 +137,7 @@ $$
 \end{aligned}
 $$
 
-1계 조건에 따르면, $\Sigma w = \lambda w$가 성립해야 한다. 사실 이 조건은 상당히 신기하다. 1계 조건이 정확하게 아이겐밸류와 아이겐벡터를 구하는 방법과 동일하다. 어떤 매트릭스가 있을 때 해당 매트릭스의 분산-공분산 행렬의 아이겐밸류와 아이겐벡터를 구하면 그 아이겐밸류와 벡터가 바로 RSS를 최적화해주는 값이 된다. 이때 $w$는 아이겐벡터이며 $\lambda$는 아이겐밸류가 된다.  게다가 아이겐밸류는 아래 식에서 보듯이 그 자체로 분산과 같다. 
+1계 조건을 다시 보자. $\Sigma w = \lambda w$ 조건이 흥미롭다. 1계 조건이 정확하게 아이겐밸류와 아이겐벡터를 구하는 방법과 동일하다. 어떤 매트릭스가 있을 때 해당 매트릭스의 분산-공분산 행렬의 아이겐밸류와 아이겐벡터를 구하면 그 아이겐밸류와 벡터가 바로 RSS를 최적화해주는 값이 된다. 이때 $w$는 아이겐벡터이며 $\lambda$는 아이겐밸류가 된다.  게다가 아이겐밸류는 아래 식에서 보듯이 그 자체로 분산과 같다. 
 
 $$
 \operatorname{Var}(X w) = w^{\mathrm T} \Sigma w =  \lambda w \cdot w = \lambda$$ 
@@ -218,9 +218,9 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzOTA0NTQyNCwtMTIxMzc2OTUyOSwyNT
-Y0MDEyNzIsLTE0MDYxMjk4NzcsMjA2OTkzNzkyMCwxODY0NzM1
-MjMxLC0xNTgwOTg3NTU2LDIwNTE4MTgzMzMsLTg0OTg1MjgzMS
-wtMTcxMTkzMjU3OCwxODMzNzUwMzE1LC02MjI5NDcwODEsMTQy
-Nzc2Mzc4MiwtOTIyNDYxOTczLC0xODAxMTQ2MzAzXX0=
+eyJoaXN0b3J5IjpbMTQxOTUyNjc4LC0xMjEzNzY5NTI5LDI1Nj
+QwMTI3MiwtMTQwNjEyOTg3NywyMDY5OTM3OTIwLDE4NjQ3MzUy
+MzEsLTE1ODA5ODc1NTYsMjA1MTgxODMzMywtODQ5ODUyODMxLC
+0xNzExOTMyNTc4LDE4MzM3NTAzMTUsLTYyMjk0NzA4MSwxNDI3
+NzYzNzgyLC05MjI0NjE5NzMsLTE4MDExNDYzMDNdfQ==
 -->
