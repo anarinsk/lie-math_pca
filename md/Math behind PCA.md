@@ -63,7 +63,7 @@ $$
 RSS를 최소화하는 게 목표라고 하자. 조정 가능한 값인 $w$는 괄호를 제외한 부분에만 포함되어 있다. 이를 아래와 같이 고쳐써보자. 
 
 $$
-\dfrac{1}{n} \sum_{i=1}^n (w \cdot x_i)^2 = \left(\dfrac{1}{n}  \sum_{i=1}^n w \cdot x_i \right)^2 + \mathrm{Var}[w \cdot x_i]
+\dfrac{1}{n} \sum_{i=1}^n (w \cdot x_i)^2 = \left(\dfrac{1}{n}  \sum_{i=1}^n w \cdot x_i \right)^2 + \underset{i}{\mathrm{Var}}[w \cdot x_i]
 $$
 
 이 식이 성립하는 이유는 일반적으로 $\mathrm{Var}(y)= \mathrm{E}(y^2) - (\mathrm{E}(y))^2$이 성립하기 때문이다.  그리고 앞에서 보았듯이 $\mathrm{E} (w \cdot x_i) = 0$ 성립한다. 따라서 RSS를 최소화한다는 것은 $\mathrm{Var}(\cdot)$을 최대화하는 것과 같다. 
@@ -199,7 +199,7 @@ $x_i$와 $w^j$ 모두 $k \times 1$ 벡터임을 확인하고 가자. 이 녀석�
 3. 스크린을 이루는 축들과 $x_i$의 크로스 프로덕트 값의 분산($\mathrm{Var} (x_i \cdot w^j)$)을 더한 값을 최대화하는 것이 RSS를 극소화 문제가 된다. 즉, 각각 $w^j$와 $x_i$의 닷 프로덕트의 분산을 최대화하면 된다. 즉, 
 
 $$
-\text{Var}[\sum_{j=1}^k {( x_i \cdot w^j) } w^j] = \sum_{j=1}^k {\lambda^j}  
+\underset{i}{\text{Var}}[\sum_{j=1}^k {( x_i \cdot w^j) } w^j] = \sum_{j=1}^k {\lambda^j}  
 $$
 
 아래 그림이 PCA를 이해하는 데 다소 도움이 될 수 있겠다. OLS는 모델의 직선과 관찰의 유클리드 거리를 극소화하는 것이다. 반면 PCA는 특정한 벡터를 두고 이 벡터로 개별 관찰 벡터를 프로젝션 했을 때, 그 프로젝션된 이미지 벡터와 관찰 간의 거리를 최소화하는 것이다. 프로젝션이 '스크린'을 향해서 직교하는 선을 내리는 것이라는 점을 떠올리면 오른쪽 그림이 
@@ -226,10 +226,10 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NDMyNjg2MSwtNzc3NTMwOTIxLDYwND
-kyNzUxLC0xMjEzNzY5NTI5LDI1NjQwMTI3MiwtMTQwNjEyOTg3
-NywyMDY5OTM3OTIwLDE4NjQ3MzUyMzEsLTE1ODA5ODc1NTYsMj
-A1MTgxODMzMywtODQ5ODUyODMxLC0xNzExOTMyNTc4LDE4MzM3
-NTAzMTUsLTYyMjk0NzA4MSwxNDI3NzYzNzgyLC05MjI0NjE5Nz
-MsLTE4MDExNDYzMDNdfQ==
+eyJoaXN0b3J5IjpbLTE5NjQwNzc3ODcsLTc4NDMyNjg2MSwtNz
+c3NTMwOTIxLDYwNDkyNzUxLC0xMjEzNzY5NTI5LDI1NjQwMTI3
+MiwtMTQwNjEyOTg3NywyMDY5OTM3OTIwLDE4NjQ3MzUyMzEsLT
+E1ODA5ODc1NTYsMjA1MTgxODMzMywtODQ5ODUyODMxLC0xNzEx
+OTMyNTc4LDE4MzM3NTAzMTUsLTYyMjk0NzA4MSwxNDI3NzYzNz
+gyLC05MjI0NjE5NzMsLTE4MDExNDYzMDNdfQ==
 -->
