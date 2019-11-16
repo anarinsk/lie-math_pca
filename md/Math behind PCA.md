@@ -215,7 +215,9 @@ $$
 
 # 마침내 차원 축소 
 
-이제 차원 축소를 다룰 수 있게 되었다. 만일 $k$ 개의 차원에서 의미 있는 차원으로 $l (< k)$ 개를 선택하려 한다면 $l$ 개로 축소된 차원을 얻게 된다. 가장 설명력이 큰 $l$ 개의 프로젝션 스크린 벡터를 어떻게 취하면 될까? 앞서 RSS 최소화 문제에서 보았듯이 분산이 클수록 좋다. 임의의 갯수로 주성분을 취한다고 할 때 최적화의 기준은 분산이 큰 순서다. 그리고 분산은 아이겐밸류와 같다. 요컨대 $l$ 개의 주성분을 취할 때 취할 때 아이겐밸류가 큰 순서대로 취하면 된다. 
+이제 차원 축소를 다룰 수 있게 되었다. 만일 $k$ 개의 차원에서 의미 있는 차원으로 $l (< k)$ 개를 선택하려 한다면 $l$ 개로 축소된 차원을 얻게 된다. 가장 설명력이 큰 $l$ 개의 프로젝션 스크린 벡터를 어떻게 취하면 될까? 앞서 RSS 최소화 문제에서 보았듯이 분산이 클수록 좋다. 임의의 갯수로 주성분을 취한다고 할 때 선택의 기준은 분산이 큰 순서이고  분산은 아이겐밸류와 같다. 요컨대 $l$ 개의 주성분을 취할 때 취할 때 아이겐밸류가 큰 순서대로 취하면 되겠다.[^2] 
+
+[^2]: 주성분의 갯수를 취하는 방법은 PCA에 관한 튜토리얼에서 항상 등장하는 주제이니 구글링을 해서 확인하시면 되겠다. 
 
 # Resource 
 
@@ -230,11 +232,11 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2Nzk3ODMzNiwyMTA1OTczODc2LC03OD
-QzMjY4NjEsLTc3NzUzMDkyMSw2MDQ5Mjc1MSwtMTIxMzc2OTUy
-OSwyNTY0MDEyNzIsLTE0MDYxMjk4NzcsMjA2OTkzNzkyMCwxOD
-Y0NzM1MjMxLC0xNTgwOTg3NTU2LDIwNTE4MTgzMzMsLTg0OTg1
-MjgzMSwtMTcxMTkzMjU3OCwxODMzNzUwMzE1LC02MjI5NDcwOD
-EsMTQyNzc2Mzc4MiwtOTIyNDYxOTczLC0xODAxMTQ2MzAzXX0=
-
+eyJoaXN0b3J5IjpbLTEzNzIxNDI2ODQsMTA2Nzk3ODMzNiwyMT
+A1OTczODc2LC03ODQzMjY4NjEsLTc3NzUzMDkyMSw2MDQ5Mjc1
+MSwtMTIxMzc2OTUyOSwyNTY0MDEyNzIsLTE0MDYxMjk4NzcsMj
+A2OTkzNzkyMCwxODY0NzM1MjMxLC0xNTgwOTg3NTU2LDIwNTE4
+MTgzMzMsLTg0OTg1MjgzMSwtMTcxMTkzMjU3OCwxODMzNzUwMz
+E1LC02MjI5NDcwODEsMTQyNzc2Mzc4MiwtOTIyNDYxOTczLC0x
+ODAxMTQ2MzAzXX0=
 -->
