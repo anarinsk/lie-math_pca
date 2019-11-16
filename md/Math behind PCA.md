@@ -163,7 +163,9 @@ $$
 
 분산-공분산 행렬의 이 특징이 PCA의 흥미로운 점 하나를 드러난다. 2 차원 평면에서 사 분면을 떠올려보자. 사 분면을 구성하는 $x$, $y$ 축은 서로 직교한다. 2 차원 평면 위에 어떤 관찰에 대해서 PCA를 했다고 하자. PCA의 스크린으로 두 개를 사용했고, 해당 스크린이 아이겐벡터라면 이 두 벡터는 서로 직교한다. 즉, 원래 직교했던 두 축에서 직교하는 다른 두 축으로 좌표의 기준을 이동 시킨 셈이다. 즉 PCA는 분산을 가장 크게 하는 방식으로 좌표축을 이동하는 방법이라고 이해할 수 있겠다. 
 
-![https://miro.medium.com/max/1573/0*OQP5dk7ZhsCGVQA](https://miro.medium.com/max/1573/0*OQP5dk7ZhsCGVQA-)
+<p align="center"><kbd>
+  <img src="https://miro.medium.com/max/1573/0*OQP5dk7ZhsCGVQA-" width="600">
+</kbd></p>
 
 ### Positive-definite 
 
@@ -198,7 +200,9 @@ $x_i$와 $w^j$ 모두 $k \times 1$ 벡터임을 확인하고 가자. 이 녀석�
 
 아래 그림이 PCA를 이해하는 데 다소 도움이 될 수 있겠다. OLS는 모델의 직선과 관찰의 유클리드 거리를 극소화하는 것이다. 반면 PCA는 특정한 벡터를 두고 이 벡터로 개별 관찰 벡터를 프로젝션 했을 때, 그 프로젝션된 이미지 벡터와 관찰 간의 거리를 최소화하는 것이다. 프로젝션이 '스크린'을 향해서 직교하는 선을 내리는 것이라는 점을 떠올리면 오른쪽 그림이 
 
-![Image result for PCA regression](https://i.stack.imgur.com/83Jog.png)
+<p align="center"><kbd>
+  <img src="https://i.stack.imgur.com/83Jog.png" width="600">
+</kbd></p>
 
 
 # 차원 축소 
@@ -222,7 +226,7 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4Mzg4NDcwMyw2MDQ5Mjc1MSwtMTIxMz
+eyJoaXN0b3J5IjpbLTExNjcyMDUwMiw2MDQ5Mjc1MSwtMTIxMz
 c2OTUyOSwyNTY0MDEyNzIsLTE0MDYxMjk4NzcsMjA2OTkzNzky
 MCwxODY0NzM1MjMxLC0xNTgwOTg3NTU2LDIwNTE4MTgzMzMsLT
 g0OTg1MjgzMSwtMTcxMTkzMjU3OCwxODMzNzUwMzE1LC02MjI5
