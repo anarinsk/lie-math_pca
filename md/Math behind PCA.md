@@ -105,9 +105,9 @@ $$
 \text{cov}(x^i, x^j) = \dfrac{1}{n-1}\sum_{k=1}^{n} x^i_k x^j_k
 $$
 
-# 아이겐밸류는 어떻게 등장하나? 
+## eigenva는 어떻게 등장하나? 
 
-임의의 단위 벡터 $w$와 그 프로젝션을 다시 적어보자. 이제 하나의 벡터가 아니라 $X$라는 매트릭스 전체에 대해서 프로젝션을 하면 아래와 같다.
+임의의 단위 벡터 $w$와 그 프로젝션을 다시 적어보자. 표기를 간단히 하기 위해서 상첨자는 생략한다. 이제 하나의 벡터가 아니라 $X$라는 매트릭스 전체에 대해서 프로젝션을 하면 아래와 같다.
 
 $$\operatorname{Proj}_{w} (X) = \dfrac{X w}{\Vert w \Vert} \in {\mathbb R}^{n \times 1}$$
 
@@ -218,9 +218,9 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTM3Njk1MjksMjU2NDAxMjcyLC0xND
-A2MTI5ODc3LDIwNjk5Mzc5MjAsMTg2NDczNTIzMSwtMTU4MDk4
-NzU1NiwyMDUxODE4MzMzLC04NDk4NTI4MzEsLTE3MTE5MzI1Nz
-gsMTgzMzc1MDMxNSwtNjIyOTQ3MDgxLDE0Mjc3NjM3ODIsLTky
-MjQ2MTk3MywtMTgwMTE0NjMwM119
+eyJoaXN0b3J5IjpbMTIzOTA0NTQyNCwtMTIxMzc2OTUyOSwyNT
+Y0MDEyNzIsLTE0MDYxMjk4NzcsMjA2OTkzNzkyMCwxODY0NzM1
+MjMxLC0xNTgwOTg3NTU2LDIwNTE4MTgzMzMsLTg0OTg1MjgzMS
+wtMTcxMTkzMjU3OCwxODMzNzUwMzE1LC02MjI5NDcwODEsMTQy
+Nzc2Mzc4MiwtOTIyNDYxOTczLC0xODAxMTQ2MzAzXX0=
 -->
