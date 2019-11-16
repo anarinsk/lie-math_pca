@@ -211,9 +211,7 @@ $$
 
 # 차원 축소 
 
-이제 비로소 차원 축소를 다룰 수 있게 되었다. 만일 $k$ 개의 차원에서 의미 있는 차원으로 $l (< k)$ 개를 선택하려 한다면 $l$ 개로 축소된 차원을 얻게 된다. 가장 설명력이 큰 $l$ 개의 프로젝션 스크린 벡터를 취하는 것을 미리 약속할 수 있겠다. 
-
-설명력이 크다는 것은 무엇일까? 앞서 극대화 문제에서 보았듯이 분산이 크다는 것이다. 앞서 보았듯이 여러 개의 프로젝션 벡터가 있을 때 해당 분산값이 합이 큰 것이 좋다. 임의의 갯수로 주성분을 취한다고 할 때, 최적화의 기준은 분산이 큰 것이다. 따라서 $l$ 개를 취할 때에는 분산이 큰 순서대로 취하면 된다. 
+이제 비로소 차원 축소를 다룰 수 있게 되었다. 만일 $k$ 개의 차원에서 의미 있는 차원으로 $l (< k)$ 개를 선택하려 한다면 $l$ 개로 축소된 차원을 얻게 된다. 가장 설명력이 큰 $l$ 개의 프로젝션 스크린 벡터를 어떻게 취하면 될까? 앞서 RSS 최소화 문제에서 보았듯이 분산이 클수록 좋다. 임의의 갯수로 주성분을 취한다고 할 때 최적화의 기준은 분산이 큰 순서다. 그리고 분산은 아이겐밸류와 같다. $l$ 개를 취할 때에는 분산이 큰 순서대로 취하면 된다. 
 
 # Resource 
 
@@ -228,7 +226,7 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjk3MDIyOSwtNzc3NTMwOTIxLDYwND
+eyJoaXN0b3J5IjpbMTE4ODYzMzY3MCwtNzc3NTMwOTIxLDYwND
 kyNzUxLC0xMjEzNzY5NTI5LDI1NjQwMTI3MiwtMTQwNjEyOTg3
 NywyMDY5OTM3OTIwLDE4NjQ3MzUyMzEsLTE1ODA5ODc1NTYsMj
 A1MTgxODMzMywtODQ5ODUyODMxLC0xNzExOTMyNTc4LDE4MzM3
