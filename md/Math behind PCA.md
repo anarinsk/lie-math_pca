@@ -202,7 +202,6 @@ $$
 \text{Var}[\sum_{j=1}^k {( x_i \cdot w^j) } w^j] = \sum_{j=1}^k {\lambda^j}  
 $$
 
-
 아래 그림이 PCA를 이해하는 데 다소 도움이 될 수 있겠다. OLS는 모델의 직선과 관찰의 유클리드 거리를 극소화하는 것이다. 반면 PCA는 특정한 벡터를 두고 이 벡터로 개별 관찰 벡터를 프로젝션 했을 때, 그 프로젝션된 이미지 벡터와 관찰 간의 거리를 최소화하는 것이다. 프로젝션이 '스크린'을 향해서 직교하는 선을 내리는 것이라는 점을 떠올리면 오른쪽 그림이 
 
 <p align="center"><kbd>
@@ -212,7 +211,7 @@ $$
 
 # 차원 축소 
 
-이제 비로소 차원 축소를 다룰 수 있게 되었다. 만일 $k$ 개의 차원에서 의미 있는 차원으로 $l (< k)$ 개였다면, 앞서의 식을 통해서 $l$ 개의 아이겐밸류-아이겐벡터를 얻고 나머지 아이겐밸류는 0이 될 것이다. 이 경우 우리는 $l$ 개로 축소된 차원을 얻게 된다.
+이제 비로소 차원 축소를 다룰 수 있게 되었다. 만일 $k$ 개의 차원에서 의미 있는 차원으로 $l (< k)$ 개를 선택하려 한다면, 이 경우 우리는 $l$ 개로 축소된 차원을 얻게 된다.
 
 하지만 현실적으로 $(k-l)$ 개의 아이겐밸류가 0이 되는 경우는 드물다. 이때 0으로 간주한 아이겐밸류에 대한 기준값을 잡거나 혹은 임의로 가장 설명력이 큰 $l$ 개의 프로젝션 스크린 벡터를 취하는 것을 미리 약속할 수 있겠다. 
 
@@ -231,7 +230,7 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3OTA5NTQ4OCwtNzc3NTMwOTIxLDYwND
+eyJoaXN0b3J5IjpbLTY3OTM2Mjk1NywtNzc3NTMwOTIxLDYwND
 kyNzUxLC0xMjEzNzY5NTI5LDI1NjQwMTI3MiwtMTQwNjEyOTg3
 NywyMDY5OTM3OTIwLDE4NjQ3MzUyMzEsLTE1ODA5ODc1NTYsMj
 A1MTgxODMzMywtODQ5ODUyODMxLC0xNzExOTMyNTc4LDE4MzM3
