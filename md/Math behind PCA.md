@@ -70,24 +70,6 @@ $$
 
 # $\text{Var}$ 최대화 
 
-
-
-여기서 잠깐. 하나의 벡터로만 프로젝션하라는 법은 없다. 프로젝션의 스크린으로 동원되는 벡터가 $w^1, w^2, \dotsc, w^k$라고 하자. 이 프로젝션을 통해 생성되는 벡터들이 이루는 부분공간은 다음과 같이 나타낼 수 있다. 
-
-$$
-\sum_{j=1}^k \underset{\mathrm{가중치}}{( x_i \cdot w^j) } w^i
-$$
-
-$x_i$와 $w^j$ 모두 $k \times 1$ 벡터임을 확인하고 가자. 이 녀석의 RSS를 최소화하는 문제는 어떻게 될까? 계산이 다소 복잡하니 직관만 짚고 넘어가자. 
-
-1. 앞서 스크린이 하나였던 경우와 마친가지로 $x_i$와 저 값의 내적의 분산을 최대화 해야 한다. 
-2. 만일 $w_\cdot$들이 서로 직교한다면, $w_i \cdot w_j (i \neq j)$는 0이 되어 사라질 것이고, $w_i \cdot w_i$(=1)로 구성된 텀만 만게 된다.  결국
-3. 스크린을 이루는 축들과 $x_i$의 크로스 프로덕트 값의 분산($\mathrm{Var} (x_i \cdot w^j)$)을 더한 값을 최대화하는 것이 RSS를 극소화 문제가 된다. 즉, 각각 $w^j$와 $x_i$의 닷 프로덕트의 분산을 최대화하면 된다. 
-
-아래 그림이 PCA를 이해하는 데 다소 도움이 될 수 있겠다. OLS는 모델의 직선과 관찰의 유클리드 거리를 극소화하는 것이다. 반면 PCA는 특정한 벡터를 두고 이 벡터로 개별 관찰 벡터를 프로젝션 했을 때, 그 프로젝션된 이미지 벡터와 관찰 간의 거리를 최소화하는 것이다. 프로젝션이 '스크린'을 향해서 직교하는 선을 내리는 것이라는 점을 떠올리면 오른쪽 그림이 
-
-![Image result for PCA regression](https://i.stack.imgur.com/83Jog.png)
-
 # 분산-공분산 행렬 
 
 이제 왜 분산이 등장하는지는 대충 이해가 될 것이라고 생각한다.  $X$를 통해 쉽게 분산-공분산 행렬을 나타낼 수 있다. $x_i^j$ 에서 $i (=1,2,\dotsc, n)$는 관찰을, $j(=1,2,\dotsc,k)$는 피쳐를 나타낸다. 
@@ -192,6 +174,25 @@ $$
 
 이 두 조건에 따라서 개별 프로젝션 스크린 벡터에 따른 극대화 문제를 풀면 아이겐밸류와 아이겐벡터를 각각 하나씩 얻게 된다. 분산이 큰 순서대로 아이겐벡터를 정렬한다고 생각해보자. 이렇게 정렬하면 프로젝션 스크린 벡터 중에서 RSS를 더 줄일 수 있는 벡터 순으로 정렬하는 셈이다.  
 
+# 잠깐 
+
+여기서 잠깐. 하나의 벡터로만 프로젝션하라는 법은 없다. 프로젝션의 스크린으로 동원되는 벡터가 $w^1, w^2, \dotsc, w^k$라고 하자. 이 프로젝션을 통해 생성되는 벡터들이 이루는 부분공간은 다음과 같이 나타낼 수 있다. 
+
+$$
+\sum_{j=1}^k \underset{\mathrm{가중치}}{( x_i \cdot w^j) } w^i
+$$
+
+$x_i$와 $w^j$ 모두 $k \times 1$ 벡터임을 확인하고 가자. 이 녀석의 RSS를 최소화하는 문제는 어떻게 될까? 계산이 다소 복잡하니 직관만 짚고 넘어가자. 
+
+1. 앞서 스크린이 하나였던 경우와 마친가지로 $x_i$와 저 값의 내적의 분산을 최대화 해야 한다. 
+2. 만일 $w_\cdot$들이 서로 직교한다면, $w_i \cdot w_j (i \neq j)$는 0이 되어 사라질 것이고, $w_i \cdot w_i$(=1)로 구성된 텀만 만게 된다.  결국
+3. 스크린을 이루는 축들과 $x_i$의 크로스 프로덕트 값의 분산($\mathrm{Var} (x_i \cdot w^j)$)을 더한 값을 최대화하는 것이 RSS를 극소화 문제가 된다. 즉, 각각 $w^j$와 $x_i$의 닷 프로덕트의 분산을 최대화하면 된다. 
+
+아래 그림이 PCA를 이해하는 데 다소 도움이 될 수 있겠다. OLS는 모델의 직선과 관찰의 유클리드 거리를 극소화하는 것이다. 반면 PCA는 특정한 벡터를 두고 이 벡터로 개별 관찰 벡터를 프로젝션 했을 때, 그 프로젝션된 이미지 벡터와 관찰 간의 거리를 최소화하는 것이다. 프로젝션이 '스크린'을 향해서 직교하는 선을 내리는 것이라는 점을 떠올리면 오른쪽 그림이 
+
+![Image result for PCA regression](https://i.stack.imgur.com/83Jog.png)
+
+
 # 차원 축소 
 
 이제 마지막으로 차원 축소를 다뤄보자. 만일 $k$ 개의 차원에서 의미 있는 차원이 $l (< k)$ 개였다면, 앞서의 식을 통해서 $l$ 개의 아이겐밸류-아이겐벡터를 얻고 나머지 아이겐밸류는 0이 될 것이다. 이 경우 우리는 $l$ 개로 축소된 차원을 얻게 된다.
@@ -213,9 +214,9 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNjQ2MjI1LC0xNDA2MTI5ODc3LDIwNj
-k5Mzc5MjAsMTg2NDczNTIzMSwtMTU4MDk4NzU1NiwyMDUxODE4
-MzMzLC04NDk4NTI4MzEsLTE3MTE5MzI1NzgsMTgzMzc1MDMxNS
-wtNjIyOTQ3MDgxLDE0Mjc3NjM3ODIsLTkyMjQ2MTk3MywtMTgw
-MTE0NjMwM119
+eyJoaXN0b3J5IjpbLTE0MTQ0NjEwODYsLTE0MDYxMjk4NzcsMj
+A2OTkzNzkyMCwxODY0NzM1MjMxLC0xNTgwOTg3NTU2LDIwNTE4
+MTgzMzMsLTg0OTg1MjgzMSwtMTcxMTkzMjU3OCwxODMzNzUwMz
+E1LC02MjI5NDcwODEsMTQyNzc2Mzc4MiwtOTIyNDYxOTczLC0x
+ODAxMTQ2MzAzXX0=
 -->
