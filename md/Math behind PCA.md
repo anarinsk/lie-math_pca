@@ -68,6 +68,17 @@ $$
 
 이 식이 성립하는 이유는 일반적으로 $\mathrm{Var}(y)= \mathrm{E}(y^2) - (\mathrm{E}(y))^2$이 성립하기 때문이다.  그리고 앞에서 보았듯이 $\mathrm{E} (w \cdot x_i) = 0$ 성립한다. 따라서 RSS를 최소화한다는 것은 $\mathrm{Var}(\cdot)$을 최대화하는 것과 같다. 
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-5998015764378916"
+     data-ad-slot="2636203176"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 # 분산 최대화 
 
 ## 분산-공분산 행렬 
@@ -219,10 +230,11 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNTk3Mzg3NiwtNzg0MzI2ODYxLC03Nz
-c1MzA5MjEsNjA0OTI3NTEsLTEyMTM3Njk1MjksMjU2NDAxMjcy
-LC0xNDA2MTI5ODc3LDIwNjk5Mzc5MjAsMTg2NDczNTIzMSwtMT
-U4MDk4NzU1NiwyMDUxODE4MzMzLC04NDk4NTI4MzEsLTE3MTE5
-MzI1NzgsMTgzMzc1MDMxNSwtNjIyOTQ3MDgxLDE0Mjc3NjM3OD
-IsLTkyMjQ2MTk3MywtMTgwMTE0NjMwM119
+eyJoaXN0b3J5IjpbMTA2Nzk3ODMzNiwyMTA1OTczODc2LC03OD
+QzMjY4NjEsLTc3NzUzMDkyMSw2MDQ5Mjc1MSwtMTIxMzc2OTUy
+OSwyNTY0MDEyNzIsLTE0MDYxMjk4NzcsMjA2OTkzNzkyMCwxOD
+Y0NzM1MjMxLC0xNTgwOTg3NTU2LDIwNTE4MTgzMzMsLTg0OTg1
+MjgzMSwtMTcxMTkzMjU3OCwxODMzNzUwMzE1LC02MjI5NDcwOD
+EsMTQyNzc2Mzc4MiwtOTIyNDYxOTczLC0xODAxMTQ2MzAzXX0=
+
 -->
