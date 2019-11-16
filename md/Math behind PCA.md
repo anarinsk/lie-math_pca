@@ -72,7 +72,7 @@ $$
 
 ## 분산-공분산 행렬 
 
-PCA 왜 분산이 등장하는지를 파악했으니,  .  $X$를 통해 쉽게 분산-공분산 행렬을 나타낼 수 있다. $x_i^j$ 에서 $i (=1,2,\dotsc, n)$는 관찰을, $j(=1,2,\dotsc,k)$는 피쳐를 나타낸다. 
+PCA에 왜 분산이 등장하는지를 파악했으니 분산 최대화를 계산해볼 차례다.  아래 $X$를 통해 쉽게 분산-공분산 행렬을 표시할 수 있다. $x_i^j$ 에서 $i (=1,2,\dotsc, n)$는 관찰을, $j(=1,2,\dotsc,k)$는 피쳐를 나타낸다. 
 
 $$ 
 \underset{n \times k}{X} = 
@@ -214,9 +214,9 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcwNzk1MDYsLTE0MDYxMjk4NzcsMjA2OT
-kzNzkyMCwxODY0NzM1MjMxLC0xNTgwOTg3NTU2LDIwNTE4MTgz
-MzMsLTg0OTg1MjgzMSwtMTcxMTkzMjU3OCwxODMzNzUwMzE1LC
-02MjI5NDcwODEsMTQyNzc2Mzc4MiwtOTIyNDYxOTczLC0xODAx
-MTQ2MzAzXX0=
+eyJoaXN0b3J5IjpbMjU2NDAxMjcyLC0xNDA2MTI5ODc3LDIwNj
+k5Mzc5MjAsMTg2NDczNTIzMSwtMTU4MDk4NzU1NiwyMDUxODE4
+MzMzLC04NDk4NTI4MzEsLTE3MTE5MzI1NzgsMTgzMzc1MDMxNS
+wtNjIyOTQ3MDgxLDE0Mjc3NjM3ODIsLTkyMjQ2MTk3MywtMTgw
+MTE0NjMwM119
 -->
