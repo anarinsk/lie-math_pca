@@ -147,12 +147,12 @@ $$
 
 $\lambda$가 분산이 된다고 말했다. 잠깐, 분산이라면 항상 0보다 커야 하는데, $\lambda$가 0보다 크다는 보장이 있는가? 이 문제를 포함하여 앞에서 정리하지 못한 몇 가지 문제를 모아서 살펴보자. 
 
-# 분산-공분산 행렬의 속성 
+## 분산-공분산 행렬의 속성 
 
 분산-공분산 행렬은 아래와 같은 두 가지 특징을 지닌다. 
 
-## 대칭 행렬
-우선, 분산-공분산 행렬이므로 대칭적이다. 행렬이 대칭일 경우 해당 행렬의 아이겐벡터들은 서로 직교(orthogonal)한다. 
+### 대칭 행렬
+우선, 분산-공분산 행렬이므로 대칭이다. 행렬이 대칭일 경우 해당 행렬의 아이겐벡터들은 서로 직교(orthogonal)한다. 
 
 $$
 i, j \in \{ 1, 2, \dotsc, k\}~\text{with}~i \ne j, w_i \cdot w_j = 0
@@ -162,7 +162,7 @@ $$
 
 분산-공분산 행렬의 이 특징이 PCA의 흥미로운 점 하나를 드러난다. 2 차원 평면에서 사 분면을 떠올려보자. 사 분면을 구성하는 $x$, $y$ 축은 서로 직교한다. 2 차원 평면 위에 어떤 관찰에 대해서 PCA를 했다고 하자. PCA의 스크린으로 두 개를 사용했고, 해당 스크린이 아이겐벡터라면 이 두 벡터는 서로 직교한다. 즉, 원래 직교했던 두 축에서 직교하는 다른 두 축으로 좌표의 기준을 이동 시킨 셈이다. 즉 PCA는 분산을 가장 크게 하는 방식으로 좌표축을 이동하는 방법이라고 이해하면 좋다. 
 
-## Positive-definite 
+### Positive-definite 
 
 $\Sigma$는 준양정행렬(positive semi-definite) 행렬이다.[^1] 즉, 
 
@@ -219,9 +219,9 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODI5NzQzMjMsLTEyMTM3Njk1MjksMj
-U2NDAxMjcyLC0xNDA2MTI5ODc3LDIwNjk5Mzc5MjAsMTg2NDcz
-NTIzMSwtMTU4MDk4NzU1NiwyMDUxODE4MzMzLC04NDk4NTI4Mz
-EsLTE3MTE5MzI1NzgsMTgzMzc1MDMxNSwtNjIyOTQ3MDgxLDE0
-Mjc3NjM3ODIsLTkyMjQ2MTk3MywtMTgwMTE0NjMwM119
+eyJoaXN0b3J5IjpbNjA0OTI3NTEsLTEyMTM3Njk1MjksMjU2ND
+AxMjcyLC0xNDA2MTI5ODc3LDIwNjk5Mzc5MjAsMTg2NDczNTIz
+MSwtMTU4MDk4NzU1NiwyMDUxODE4MzMzLC04NDk4NTI4MzEsLT
+E3MTE5MzI1NzgsMTgzMzc1MDMxNSwtNjIyOTQ3MDgxLDE0Mjc3
+NjM3ODIsLTkyMjQ2MTk3MywtMTgwMTE0NjMwM119
 -->
