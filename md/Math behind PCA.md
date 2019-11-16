@@ -202,10 +202,10 @@ $$
 \underset{i}{\text{Var}}[\sum_{j=1}^k {( x_i \cdot w^j) } w^j] = \sum_{j=1}^k {\lambda^j}  
 $$
 
-아래 그림이 PCA를 이해하는 데 다소 도움이 될 수 있겠다. OLS는 모델의 직선과 관찰의 유클리드 거리를 극소화하는 것이다. 반면 PCA는 특정한 벡터를 두고 이 벡터로 개별 관찰 벡터를 프로젝션 했을 때, 그 프로젝션된 이미지 벡터와 관찰 간의 거리를 최소화하는 것이다. 프로젝션이 '스크린'을 향해서 직교하는 선을 내리는 것이라는 점을 떠올리면 오른쪽 그림이 
+아래 그림이 PCA를 이해하는 데 다소 도움이 될 수 있겠다. OLS는 모델의 직선과 관찰의 유클리드 거리를 극소화하는 것이다. 반면 PCA는 특정한 벡터를 두고 이 벡터로 개별 관찰 벡터를 프로젝션 했을 때, 그 프로젝션된 이미지 벡터와 관찰 간의 거리를 최소화하는 것이다. 프로젝션이 '스크린'을 향해서 직교하는 선을 내리는 것이라는 점
 
 <p align="center"><kbd>
-  <img src="https://i.stack.imgur.com/83Jog.png" width="00">
+  <img src="https://i.stack.imgur.com/83Jog.png" width="700">
 </kbd></p>
 
 
@@ -226,7 +226,7 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MzA3ODIxNCwtNzg0MzI2ODYxLC03Nz
+eyJoaXN0b3J5IjpbMTA3ODQzNDUzMiwtNzg0MzI2ODYxLC03Nz
 c1MzA5MjEsNjA0OTI3NTEsLTEyMTM3Njk1MjksMjU2NDAxMjcy
 LC0xNDA2MTI5ODc3LDIwNjk5Mzc5MjAsMTg2NDczNTIzMSwtMT
 U4MDk4NzU1NiwyMDUxODE4MzMzLC04NDk4NTI4MzEsLTE3MTE5
