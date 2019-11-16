@@ -97,10 +97,13 @@ $$
 \text{cov}(x^1, x^1) & \text{cov}(x^1, x^2) & \cdots & \text{cov}(x^1, x^k) \\
 \text{cov}(x^2, x^1) & \text{cov}(x^2, x^2) & \cdots & \text{cov}(x^2, x^k) \\
 \text{cov}(x^k, x^1) & \text{cov}(x^k, x^2) & \cdots & \text{cov}(x^k, x^k)
-\end{bmatrix} = \Sigma
+\end{bmatrix} = \Sigma, \text{~where}
 \end{aligned}
 $$
 
+$$
+\text{cov}(x^i, x^j) = \sum_{i}^{}
+$$
 # 아이겐밸류는 어떻게 등장하나? 
 
 임의의 단위 벡터 $w$와 그 프로젝션을 다시 적어보자. 이제 하나의 벡터가 아니라 $X$라는 매트릭스 전체에 대해서 프로젝션을 하면 아래와 같다.
@@ -214,9 +217,9 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU2NDAxMjcyLC0xNDA2MTI5ODc3LDIwNj
-k5Mzc5MjAsMTg2NDczNTIzMSwtMTU4MDk4NzU1NiwyMDUxODE4
-MzMzLC04NDk4NTI4MzEsLTE3MTE5MzI1NzgsMTgzMzc1MDMxNS
-wtNjIyOTQ3MDgxLDE0Mjc3NjM3ODIsLTkyMjQ2MTk3MywtMTgw
-MTE0NjMwM119
+eyJoaXN0b3J5IjpbMzExMTkzMzM5LDI1NjQwMTI3MiwtMTQwNj
+EyOTg3NywyMDY5OTM3OTIwLDE4NjQ3MzUyMzEsLTE1ODA5ODc1
+NTYsMjA1MTgxODMzMywtODQ5ODUyODMxLC0xNzExOTMyNTc4LD
+E4MzM3NTAzMTUsLTYyMjk0NzA4MSwxNDI3NzYzNzgyLC05MjI0
+NjE5NzMsLTE4MDExNDYzMDNdfQ==
 -->
