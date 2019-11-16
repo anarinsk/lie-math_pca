@@ -164,7 +164,7 @@ $$
 분산-공분산 행렬의 이 특징이 PCA의 흥미로운 점 하나를 드러난다. 2 차원 평면에서 사 분면을 떠올려보자. 사 분면을 구성하는 $x$, $y$ 축은 서로 직교한다. 2 차원 평면 위에 어떤 관찰에 대해서 PCA를 했다고 하자. PCA의 스크린으로 두 개를 사용했고, 해당 스크린이 아이겐벡터라면 이 두 벡터는 서로 직교한다. 즉, 원래 직교했던 두 축에서 직교하는 다른 두 축으로 좌표의 기준을 이동 시킨 셈이다. 즉 PCA는 분산을 가장 크게 하는 방식으로 좌표축을 이동하는 방법이라고 이해할 수 있겠다. 
 
 <p align="center"><kbd>
-  <img src="https://miro.medium.com/max/1573/0*OQP5dk7ZhsCGVQA-" width="600">
+  <img src="https://miro.medium.com/max/1573/0*OQP5dk7ZhsCGVQA-" width="400">
 </kbd></p>
 
 ### Positive-definite 
@@ -172,7 +172,7 @@ $$
 $\Sigma$는 준양정행렬(positive semi-definite) 행렬이다.[^1] 즉, 
 
 $$
-x^T \Sigma x >\geq 0 ~\text{for any $x$.}
+x^T \Sigma x \geq 0 ~\text{for any $x$.}
 $$
 
 [^1]: 증명은 몹시 간단하다. $w^T \Sigma w$ 라고 하자. 
@@ -180,7 +180,7 @@ $$
 w^T X^T X w = \underset{\text{dot product}}{ (Xw)^T (Xw) } \geq 0
 $$
 
-이 경우 모든 아이겐밸류의 값은 음수가 되지 않는다. 앞서 아이겐밸류가 분산이 된다고 것을 보았는데,지적했다. 아이겐밸류가 음수가 될 수 없고 따라서다면, 이것이 분산이라는 결과에도 부합한다. 
+이 경우 모든 아이겐밸류의 값은 음수가 되지 않는다. 앞서 아이겐밸류가 분산이 된다고 것을 보. 아이겐밸류가 음수가 될 수 없고 따라서다면, 이것이 분산이라는 결과에도 부합한다. 
 
 이 두 조건에 따라서 개별 프로젝션 스크린 벡터에 따른 극대화 문제를 풀면 아이겐밸류와 아이겐벡터를 각각 하나씩 얻게 된다. 분산이 큰 순서대로 아이겐벡터를 정렬한다고 생각해보자. 이렇게 정렬하면 프로젝션 스크린 벡터 중에서 RSS를 더 줄일 수 있는 벡터 순으로 정렬하는 셈이다.  
 
@@ -226,10 +226,10 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjcyMDUwMiw2MDQ5Mjc1MSwtMTIxMz
-c2OTUyOSwyNTY0MDEyNzIsLTE0MDYxMjk4NzcsMjA2OTkzNzky
-MCwxODY0NzM1MjMxLC0xNTgwOTg3NTU2LDIwNTE4MTgzMzMsLT
-g0OTg1MjgzMSwtMTcxMTkzMjU3OCwxODMzNzUwMzE1LC02MjI5
-NDcwODEsMTQyNzc2Mzc4MiwtOTIyNDYxOTczLC0xODAxMTQ2Mz
-AzXX0=
+eyJoaXN0b3J5IjpbLTEyNjAxMTQxNTksNjA0OTI3NTEsLTEyMT
+M3Njk1MjksMjU2NDAxMjcyLC0xNDA2MTI5ODc3LDIwNjk5Mzc5
+MjAsMTg2NDczNTIzMSwtMTU4MDk4NzU1NiwyMDUxODE4MzMzLC
+04NDk4NTI4MzEsLTE3MTE5MzI1NzgsMTgzMzc1MDMxNSwtNjIy
+OTQ3MDgxLDE0Mjc3NjM3ODIsLTkyMjQ2MTk3MywtMTgwMTE0Nj
+MwM119
 -->
