@@ -199,7 +199,7 @@ $x_i$와 $w^j$ 모두 $k \times 1$ 벡터임을 확인하고 가자. 이 녀석�
 3. 스크린을 이루는 축들과 $x_i$의 크로스 프로덕트 값의 분산($\mathrm{Var} (x_i \cdot w^j)$)을 더한 값을 최대화하는 것이 RSS를 극소화 문제가 된다. 즉, 각각 $w^j$와 $x_i$의 닷 프로덕트의 분산을 최대화하면 된다. 즉, 
 
 $$
-\Var[\sum_{j=1}^k {( x_i \cdot w^j) } w^j] = \sum_{j=1}^k {\lambda^j} w^i 
+\text{Var}[\sum_{j=1}^k {( x_i \cdot w^j) } w^j] = \sum_{j=1}^k {\lambda^j}  
 $$
 
 
@@ -212,7 +212,7 @@ $$
 
 # 차원 축소 
 
-이제 마지막으로 차원 축소를 다뤄보자. 만일 $k$ 개의 차원에서 의미 있는 차원이 $l (< k)$ 개였다면, 앞서의 식을 통해서 $l$ 개의 아이겐밸류-아이겐벡터를 얻고 나머지 아이겐밸류는 0이 될 것이다. 이 경우 우리는 $l$ 개로 축소된 차원을 얻게 된다.
+이제 비로소 차원 축소를 다룰 수 있게 되었다. 만일 $k$ 개의 차원에서 의미 있는 차원으로 $l (< k)$ 개였다면, 앞서의 식을 통해서 $l$ 개의 아이겐밸류-아이겐벡터를 얻고 나머지 아이겐밸류는 0이 될 것이다. 이 경우 우리는 $l$ 개로 축소된 차원을 얻게 된다.
 
 하지만 현실적으로 $(k-l)$ 개의 아이겐밸류가 0이 되는 경우는 드물다. 이때 0으로 간주한 아이겐밸류에 대한 기준값을 잡거나 혹은 임의로 가장 설명력이 큰 $l$ 개의 프로젝션 스크린 벡터를 취하는 것을 미리 약속할 수 있겠다. 
 
@@ -231,10 +231,10 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTQ5NDc4NTIsLTc3NzUzMDkyMSw2MD
-Q5Mjc1MSwtMTIxMzc2OTUyOSwyNTY0MDEyNzIsLTE0MDYxMjk4
-NzcsMjA2OTkzNzkyMCwxODY0NzM1MjMxLC0xNTgwOTg3NTU2LD
-IwNTE4MTgzMzMsLTg0OTg1MjgzMSwtMTcxMTkzMjU3OCwxODMz
-NzUwMzE1LC02MjI5NDcwODEsMTQyNzc2Mzc4MiwtOTIyNDYxOT
-czLC0xODAxMTQ2MzAzXX0=
+eyJoaXN0b3J5IjpbLTQ3OTA5NTQ4OCwtNzc3NTMwOTIxLDYwND
+kyNzUxLC0xMjEzNzY5NTI5LDI1NjQwMTI3MiwtMTQwNjEyOTg3
+NywyMDY5OTM3OTIwLDE4NjQ3MzUyMzEsLTE1ODA5ODc1NTYsMj
+A1MTgxODMzMywtODQ5ODUyODMxLC0xNzExOTMyNTc4LDE4MzM3
+NTAzMTUsLTYyMjk0NzA4MSwxNDI3NzYzNzgyLC05MjI0NjE5Nz
+MsLTE4MDExNDYzMDNdfQ==
 -->
