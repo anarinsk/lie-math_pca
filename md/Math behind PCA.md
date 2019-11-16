@@ -164,7 +164,7 @@ $$
 분산-공분산 행렬의 이 특징이 PCA의 흥미로운 점 하나를 드러난다. 2 차원 평면에서 사 분면을 떠올려보자. 사 분면을 구성하는 $x$, $y$ 축은 서로 직교한다. 2 차원 평면 위에 어떤 관찰에 대해서 PCA를 했다고 하자. PCA의 스크린으로 두 개를 사용했고, 해당 스크린이 아이겐벡터라면 이 두 벡터는 서로 직교한다. 즉, 원래 직교했던 두 축에서 직교하는 다른 두 축으로 좌표의 기준을 이동 시킨 셈이다. 즉 PCA는 분산을 가장 크게 하는 방식으로 좌표축을 이동하는 방법이라고 이해할 수 있겠다. 
 
 <p align="center"><kbd>
-  <img src="https://miro.medium.com/max/1573/0*OQP5dk7ZhsCGVQA-" width="400">
+  <img src="https://miro.medium.com/max/1573/0*OQP5dk7ZhsCGVQA-" width="500">
 </kbd></p>
 
 ### Positive-definite 
@@ -202,13 +202,6 @@ $$
 \underset{i}{\text{Var}}[\sum_{j=1}^k {( x_i \cdot w^j) } w^j] = \sum_{j=1}^k {\lambda^j}  
 $$
 
-아래 그림이 PCA를 이해하는 데 다소 도움이 될 수 있겠다. OLS는 모델의 직선과 관찰의 유클리드 거리를 극소화하는 것이다. 반면 PCA는 특정한 벡터를 두고 이 벡터로 개별 관찰 벡터를 프로젝션 했을 때, 그 프로젝션된 이미지 벡터와 관찰 간의 거리를 최소화하는 것이다. 프로젝션이 '스크린'을 향해서 직교하는 선을 내리는 것이라는 점
-
-<p align="center"><kbd>
-  <img src="https://i.stack.imgur.com/83Jog.png" width="700">
-</kbd></p>
-
-
 # 마침내 차원 축소 
 
 이제 차원 축소를 다룰 수 있게 되었다. 만일 $k$ 개의 차원에서 의미 있는 차원으로 $l (< k)$ 개를 선택하려 한다면 $l$ 개로 축소된 차원을 얻게 된다. 가장 설명력이 큰 $l$ 개의 프로젝션 스크린 벡터를 어떻게 취하면 될까? 앞서 RSS 최소화 문제에서 보았듯이 분산이 클수록 좋다. 임의의 갯수로 주성분을 취한다고 할 때 최적화의 기준은 분산이 큰 순서다. 그리고 분산은 아이겐밸류와 같다. 요컨대 $l$ 개의 주성분을 취할 때 취할 때 아이겐밸류가 큰 순서대로 취하면 된다. 
@@ -226,7 +219,7 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3ODQzNDUzMiwtNzg0MzI2ODYxLC03Nz
+eyJoaXN0b3J5IjpbMjEwNTk3Mzg3NiwtNzg0MzI2ODYxLC03Nz
 c1MzA5MjEsNjA0OTI3NTEsLTEyMTM3Njk1MjksMjU2NDAxMjcy
 LC0xNDA2MTI5ODc3LDIwNjk5Mzc5MjAsMTg2NDczNTIzMSwtMT
 U4MDk4NzU1NiwyMDUxODE4MzMzLC04NDk4NTI4MzEsLTE3MTE5
