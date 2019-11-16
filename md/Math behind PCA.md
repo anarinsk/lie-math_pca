@@ -189,7 +189,7 @@ $$
 앞서 1계 조건에 따라서 여러 개의 스크린 벡터가 존재할 수 있음을 보았다. 프로젝션의 스크린으로 동원되는 벡터가 $w^1, w^2, \dotsc, w^k$라고 하자. 이 프로젝션을 통해 생성되는 벡터들이 이루는 부분공간은 다음과 같이 나타낼 수 있다. 
 
 $$
-\sum_{j=1}^k \underset{\mathrm{가중치}}{( x_i \cdot w^j) } w^i
+\sum_{j=1}^k \underset{\mathrm{가중치}}{( x_i \cdot w^j) } w^i = \sum_{j=1}^k {( x_i \cdot w^j) } w^i 
 $$
 
 $x_i$와 $w^j$ 모두 $k \times 1$ 벡터임을 확인하고 가자. 이 녀석의 RSS를 최소화하는 문제는 어떻게 될까? 계산이 다소 복잡하니 직관만 짚고 넘어가자. 
@@ -226,10 +226,10 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMDg1ODIxNyw2MDQ5Mjc1MSwtMTIxMz
-c2OTUyOSwyNTY0MDEyNzIsLTE0MDYxMjk4NzcsMjA2OTkzNzky
-MCwxODY0NzM1MjMxLC0xNTgwOTg3NTU2LDIwNTE4MTgzMzMsLT
-g0OTg1MjgzMSwtMTcxMTkzMjU3OCwxODMzNzUwMzE1LC02MjI5
-NDcwODEsMTQyNzc2Mzc4MiwtOTIyNDYxOTczLC0xODAxMTQ2Mz
-AzXX0=
+eyJoaXN0b3J5IjpbLTIxMTIyODkyNTksNjA0OTI3NTEsLTEyMT
+M3Njk1MjksMjU2NDAxMjcyLC0xNDA2MTI5ODc3LDIwNjk5Mzc5
+MjAsMTg2NDczNTIzMSwtMTU4MDk4NzU1NiwyMDUxODE4MzMzLC
+04NDk4NTI4MzEsLTE3MTE5MzI1NzgsMTgzMzc1MDMxNSwtNjIy
+OTQ3MDgxLDE0Mjc3NjM3ODIsLTkyMjQ2MTk3MywtMTgwMTE0Nj
+MwM119
 -->
