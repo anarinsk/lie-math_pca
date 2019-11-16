@@ -137,10 +137,11 @@ $$
 \end{aligned}
 $$
 
-1계 조건을 다시 보자. $\Sigma w = \lambda w$ 조건이 흥미롭다. 1계 조건이 정확하게 아이겐밸류와 아이겐벡터를 구하는 방법과 동일하다. 어떤 매트릭스가 있을 때 해당 매트릭스의 분산-공분산 행렬의 아이겐밸류와 아이겐벡터를 구하면 그 아이겐밸류와 벡터가 바로 RSS를 최적화해주는 값이 된다. 이때 $w$는 아이겐벡터이며 $\lambda$는 아이겐밸류가 된다.  게다가 아이겐밸류는 아래 식에서 보듯이 그 자체로 분산과 같다. 
+1계 조건을 다시 보자. $\Sigma w = \lambda w$ 조건이 흥미롭다. 1계 조건이 정확하게 아이겐밸류(eigenvalue)와 아이겐벡터(eigenvector)를 구하는 방법이다. 어떤 매트릭스가 있을 때 해당 매트릭스의 분산-공분산 행렬의 아이겐밸류와 아이겐벡터를 구하면 그 아이겐밸류와 벡터가 바로 RSS를 최적화해주는 값이 된다. 이때 $w$는 아이겐벡터이며 $\lambda$는 아이겐밸류가 된다.  아이겐밸류는 아래 식에서 보듯이 분산이다. 
 
 $$
-\operatorname{Var}(X w) = w^{\mathrm T} \Sigma w =  \lambda w \cdot w = \lambda$$ 
+\operatorname{Var}(X w) = w^{\mathrm T} \Sigma w =  \lambda w \cdot w = \lambda
+$$ 
 
 해당 아이겐벡터는 RSS를 최소화시켜주는 스크린의 벡터, 즉 좌표가 된다. 이는 $k \times 1$ 값을 지니게 될텐데 $k$ 개의 피쳐를 RSS를 최소화하는 방식으로 이 스크린 위에 투영시킬 때 각 피쳐가 어느 방향으로 움직여야 하는지에 관한 정보를 담고 있다. 앞서 피쳐를 여러 개의 스크린으로 프로젝션한다는 이야기를 했다. 즉 아이겐벡터가 $k$ 개라고 하면, 투영할 수 있는 스크린이 $k$ 개라는 뜻이기도 하다. 
 
@@ -218,9 +219,9 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxOTUyNjc4LC0xMjEzNzY5NTI5LDI1Nj
-QwMTI3MiwtMTQwNjEyOTg3NywyMDY5OTM3OTIwLDE4NjQ3MzUy
-MzEsLTE1ODA5ODc1NTYsMjA1MTgxODMzMywtODQ5ODUyODMxLC
-0xNzExOTMyNTc4LDE4MzM3NTAzMTUsLTYyMjk0NzA4MSwxNDI3
-NzYzNzgyLC05MjI0NjE5NzMsLTE4MDExNDYzMDNdfQ==
+eyJoaXN0b3J5IjpbLTIxMTAyNDM2NDAsLTEyMTM3Njk1MjksMj
+U2NDAxMjcyLC0xNDA2MTI5ODc3LDIwNjk5Mzc5MjAsMTg2NDcz
+NTIzMSwtMTU4MDk4NzU1NiwyMDUxODE4MzMzLC04NDk4NTI4Mz
+EsLTE3MTE5MzI1NzgsMTgzMzc1MDMxNSwtNjIyOTQ3MDgxLDE0
+Mjc3NjM3ODIsLTkyMjQ2MTk3MywtMTgwMTE0NjMwM119
 -->
