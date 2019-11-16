@@ -68,7 +68,7 @@ $$
 
 이 식이 성립하는 이유는 일반적으로 $\mathrm{Var}(y)= \mathrm{E}(y^2) - (\mathrm{E}(y))^2$이 성립하기 때문이다.  그리고 앞에서 보았듯이 $\mathrm{E} (w \cdot x_i) = 0$ 성립한다. 따라서 RSS를 최소화한다는 것은 $\mathrm{Var}(\cdot)$을 최대화하는 것과 같다. 
 
-# $\text{Var}$ 최대화 
+# 분산 최대화 
 
 ## 분산-공분산 행렬 
 
@@ -156,7 +156,7 @@ $\lambda$가 분산이 된다고 말했다. 잠깐, 분산이라면 항상 0보�
 우선, 분산-공분산 행렬이므로 대칭이다. 행렬이 대칭일 경우 해당 행렬의 아이겐벡터들은 서로 직교(orthogonal)한다. 
 
 $$
-i, j \in \{ 1, 2, \dotsc, k\}~\text{with}~i \ne j, w_i \cdot w_j = 0
+i, j \in \{ 1, 2, \dotsc, k\}~\text{with}~i \ne j, w^i \cdot w^j = 0
 $$ 
 
 여러개의 프로젝션 스크린 벡터들이 존재할 경우 해당 벡터들이 서로 직교하면 분산값의 합을 최대화하는 것과 RSS를 최소화하는 것이 같음을 보았다. 이 조건이 분산-공분산 행렬의 속성을 통해 성립한다. 
@@ -189,7 +189,7 @@ $$
 앞서 1계 조건에 따라서 여러 개의 스크린 벡터가 존재할 수 있음을 보았다. 프로젝션의 스크린으로 동원되는 벡터가 $w^1, w^2, \dotsc, w^k$라고 하자. 이 프로젝션을 통해 생성되는 벡터들이 이루는 부분공간은 다음과 같이 나타낼 수 있다. 
 
 $$
-\sum_{j=1}^k \underset{\mathrm{가중치}}{( x_i \cdot w^j) } w^j = \sum_{j=1}^k {\lambda^j} w^i 
+\sum_{j=1}^k \underset{\mathrm{가중치}}{( x_i \cdot w^j) } w^j 
 $$
 
 $x_i$와 $w^j$ 모두 $k \times 1$ 벡터임을 확인하고 가자. 이 녀석과 $x_i$의 RSS를 최소화하는 문제는 어떻게 될까? 계산이 다소 복잡하니 직관만 짚고 넘어가자. 
@@ -205,7 +205,7 @@ $$
 아래 그림이 PCA를 이해하는 데 다소 도움이 될 수 있겠다. OLS는 모델의 직선과 관찰의 유클리드 거리를 극소화하는 것이다. 반면 PCA는 특정한 벡터를 두고 이 벡터로 개별 관찰 벡터를 프로젝션 했을 때, 그 프로젝션된 이미지 벡터와 관찰 간의 거리를 최소화하는 것이다. 프로젝션이 '스크린'을 향해서 직교하는 선을 내리는 것이라는 점을 떠올리면 오른쪽 그림이 
 
 <p align="center"><kbd>
-  <img src="https://i.stack.imgur.com/83Jog.png" width="600">
+  <img src="https://i.stack.imgur.com/83Jog.png" width="00">
 </kbd></p>
 
 
@@ -226,10 +226,10 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjQwNzc3ODcsLTc4NDMyNjg2MSwtNz
-c3NTMwOTIxLDYwNDkyNzUxLC0xMjEzNzY5NTI5LDI1NjQwMTI3
-MiwtMTQwNjEyOTg3NywyMDY5OTM3OTIwLDE4NjQ3MzUyMzEsLT
-E1ODA5ODc1NTYsMjA1MTgxODMzMywtODQ5ODUyODMxLC0xNzEx
-OTMyNTc4LDE4MzM3NTAzMTUsLTYyMjk0NzA4MSwxNDI3NzYzNz
-gyLC05MjI0NjE5NzMsLTE4MDExNDYzMDNdfQ==
+eyJoaXN0b3J5IjpbMTY0MzA3ODIxNCwtNzg0MzI2ODYxLC03Nz
+c1MzA5MjEsNjA0OTI3NTEsLTEyMTM3Njk1MjksMjU2NDAxMjcy
+LC0xNDA2MTI5ODc3LDIwNjk5Mzc5MjAsMTg2NDczNTIzMSwtMT
+U4MDk4NzU1NiwyMDUxODE4MzMzLC04NDk4NTI4MzEsLTE3MTE5
+MzI1NzgsMTgzMzc1MDMxNSwtNjIyOTQ3MDgxLDE0Mjc3NjM3OD
+IsLTkyMjQ2MTk3MywtMTgwMTE0NjMwM119
 -->
