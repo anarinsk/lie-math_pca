@@ -74,6 +74,7 @@ $$
 \sum_{j=1}^k \underset{\mathrm{가중치}}{( x_i \cdot w^j) } w^i
 $$
 
+$x_i$와 $w^j$ 모두 $k \times 1$ 벡터임을 다시 
 이 녀석의 RSS를 최소화하는 문제는 어떻게 될까? 계산이 다소 복잡하니 직관만 짚고 넘어가자. 
 
 1. 앞서 스크린이 하나였던 경우와 마친가지로 $x_i$와 저 값의 내적의 분산을 최대화 해야 한다. 
@@ -209,9 +210,9 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDYxMjk4NzcsMjA2OTkzNzkyMCwxOD
-Y0NzM1MjMxLC0xNTgwOTg3NTU2LDIwNTE4MTgzMzMsLTg0OTg1
-MjgzMSwtMTcxMTkzMjU3OCwxODMzNzUwMzE1LC02MjI5NDcwOD
-EsMTQyNzc2Mzc4MiwtOTIyNDYxOTczLC0xODAxMTQ2MzAzXX0=
-
+eyJoaXN0b3J5IjpbMTU1MjgxMzYwNSwtMTQwNjEyOTg3NywyMD
+Y5OTM3OTIwLDE4NjQ3MzUyMzEsLTE1ODA5ODc1NTYsMjA1MTgx
+ODMzMywtODQ5ODUyODMxLC0xNzExOTMyNTc4LDE4MzM3NTAzMT
+UsLTYyMjk0NzA4MSwxNDI3NzYzNzgyLC05MjI0NjE5NzMsLTE4
+MDExNDYzMDNdfQ==
 -->
