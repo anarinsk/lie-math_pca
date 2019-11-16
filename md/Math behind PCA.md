@@ -163,7 +163,7 @@ $$
 
 분산-공분산 행렬의 이 특징이 PCA의 흥미로운 점 하나를 드러난다. 2 차원 평면에서 사 분면을 떠올려보자. 사 분면을 구성하는 $x$, $y$ 축은 서로 직교한다. 2 차원 평면 위에 어떤 관찰에 대해서 PCA를 했다고 하자. PCA의 스크린으로 두 개를 사용했고, 해당 스크린이 아이겐벡터라면 이 두 벡터는 서로 직교한다. 즉, 원래 직교했던 두 축에서 직교하는 다른 두 축으로 좌표의 기준을 이동 시킨 셈이다. 즉 PCA는 분산을 가장 크게 하는 방식으로 좌표축을 이동하는 방법이라고 이해할 수 있겠다. 
 
-
+![https://miro.medium.com/max/1573/0*OQP5dk7ZhsCGVQA](https://miro.medium.com/max/1573/0*OQP5dk7ZhsCGVQA-)
 
 ### Positive-definite 
 
@@ -222,10 +222,10 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI0OTA3NzYyLDYwNDkyNzUxLC0xMjEzNz
-Y5NTI5LDI1NjQwMTI3MiwtMTQwNjEyOTg3NywyMDY5OTM3OTIw
-LDE4NjQ3MzUyMzEsLTE1ODA5ODc1NTYsMjA1MTgxODMzMywtOD
-Q5ODUyODMxLC0xNzExOTMyNTc4LDE4MzM3NTAzMTUsLTYyMjk0
-NzA4MSwxNDI3NzYzNzgyLC05MjI0NjE5NzMsLTE4MDExNDYzMD
-NdfQ==
+eyJoaXN0b3J5IjpbMTQ4Mzg4NDcwMyw2MDQ5Mjc1MSwtMTIxMz
+c2OTUyOSwyNTY0MDEyNzIsLTE0MDYxMjk4NzcsMjA2OTkzNzky
+MCwxODY0NzM1MjMxLC0xNTgwOTg3NTU2LDIwNTE4MTgzMzMsLT
+g0OTg1MjgzMSwtMTcxMTkzMjU3OCwxODMzNzUwMzE1LC02MjI5
+NDcwODEsMTQyNzc2Mzc4MiwtOTIyNDYxOTczLC0xODAxMTQ2Mz
+AzXX0=
 -->
