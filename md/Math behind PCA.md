@@ -149,9 +149,9 @@ $$
 \end{aligned}
 $$
 
-1계 조건을 다시 보자.[^1] $\Sigma w = \lambda w$ 조건이 흥미롭다. 1계 조건이 정확하게 아이겐밸류(eigenvalue)와 아이겐벡터(eigenvector)를 구하는 방법다. 어떤 매트릭스가 있을 때 해당 매트릭스의 분산-공분산 행렬의 아이겐밸류와 아이겐벡터를 구하면 그 아이겐밸류와 벡터가 바로 RSS를 최적화해주는 값이 된다. 이때 $w$는 아이겐벡터이며 $\lambda$는 아이겐밸류가 된다.  아이겐밸류는 아래 식에서 보듯이 분산이다.[^2]
+1계 조건을 다시 보자.[^4] $\Sigma w = \lambda w$ 조건이 흥미롭다. 1계 조건이 정확하게 아이겐밸류(eigenvalue)와 아이겐벡터(eigenvector)를 구하는 방법다. 어떤 매트릭스가 있을 때 해당 매트릭스의 분산-공분산 행렬의 아이겐밸류와 아이겐벡터를 구하면 그 아이겐밸류와 벡터가 바로 RSS를 최적화해주는 값이 된다. 이때 $w$는 아이겐벡터이며 $\lambda$는 아이겐밸류가 된다.  아이겐밸류는 아래 식에서 보듯이 분산이다.[^2]
 
-[^1]: 사실 여기 적은 1계 조건은 엄밀하지 않다. 이해를 돕기 위해서 여러가지를 퉁쳤는데, 최적화의 결과는 동일하다. 보다 상세한 도출은 [여기](https://stats.stackexchange.com/questions/10251/what-is-the-objective-function-of-pca)를 참고하시기 바란다. 
+[^4]: 사실 여기 적은 1계 조건은 엄밀하지 않다. 이해를 돕기 위해서 여러가지를 퉁쳤는데, 최적화의 결과는 동일하다. 보다 상세한 도출은 [여기](https://stats.stackexchange.com/questions/10251/what-is-the-objective-function-of-pca)를 참고하시기 바란다. 
 [^2]: 흥미로운 일치를 확인하셨는지? 제약 하 극대화에서 라그랑쥬 승수와 아이겐밸류를 나타내는 수학 기호가 모두 $\lambda$다. 약간 소름 돋는 대목이다. 일치는 여기서 끝나지 않는다. 라그랑쥬 승수는 제약 하의 극대화에서 잠재 가격(shadow price)로 불리기도 한다. 이는 해당 조건이 제약하는 자원의 잠재적인 가치를 나타낸다. 이는 분산이 클수록 RSS가 작다는 PCA의 목적 함수의 해석과 일치한다. 
 
 $$
@@ -236,7 +236,7 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MTAwMjAyLDE3NTkxMzQ4NTIsMTQ3OD
+eyJoaXN0b3J5IjpbMzAyMjc2Nzg0LDE3NTkxMzQ4NTIsMTQ3OD
 kyNTcyOCwtMTYwMzczNTgxNCwtMTk1NTUxMTg2LC0xMzcyMTQy
 Njg0LDEwNjc5NzgzMzYsMjEwNTk3Mzg3NiwtNzg0MzI2ODYxLC
 03Nzc1MzA5MjEsNjA0OTI3NTEsLTEyMTM3Njk1MjksMjU2NDAx
