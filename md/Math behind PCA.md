@@ -66,34 +66,19 @@ $$
 \dfrac{1}{n} \sum_{i=1}^n (w \cdot x_i)^2 = \left(\dfrac{1}{n}  \sum_{i=1}^n w \cdot x_i \right)^2 + \underset{i}{\mathrm{Var}}[w \cdot x_i]
 $$
 
-이 식이 성립하는 이유는 일반적으로 $\mathrm{Var}(y)= \mathrm{E}(y^2) - (\mathrm{E}(y))^2$이 성립하기 때문이다.  그리고 앞에서 보았듯이 $\mathrm{E} (w \cdot x_i) = 0$ 성립한다. 따라서 RSS를 최소화한다는 것은 $\mathrm{Var}(\cdot)$을 최대화하는 것과 같다. 
-
+이 식이 성립하는 이유는 일반적으로 $\mathrm{Var}(y)= \mathrm{E}(y^2) - (\mathrm{E}(y))^2$이 성립하기 때문이다.  그리고 앞에서 보았듯이 $\mathrm{E} (w \cdot x_i) = 0$ 성립한다. 따라서 RSS를 최소화한다는 것은 $\mathrm{Var}(\cdot)$을 최대화하는 것과 같게 된다. 
   
-## About 
-**Jun Sok Huhh** PhD in Economics, lost in economics but still haven't found what i'm looking for. Contact me via [email](mailto:anarinsk@gmail.com). 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-5998015764378916"
+     data-ad-slot="8073142933"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
-### CV 
-[Short](https://anarinsk.github.io/cv/short.html)
-/ 
-[Long](https://anarinsk.github.io/cv/long.html)
-
-## Updated 
- * 20191114 [How to Build lostineconomics.com](https://anarinsk.github.io/lie-build_lie/)
- * 20191110 [Understanding Logit Regression](https://anarinsk.github.io/lie-logit_reg/)
- * 20191107 [Visual Studio Code ❤ Python!](https://danbi-ncsoft.github.io/etc/2019/11/07/viva-vsc.html)
-  * 20191026 [Understading Regression](https://anarinsk.github.io/lie-regression/)
-  * 20190813 [Difference in Differences (이중차분법)](https://danbi-ncsoft.github.io/study/2019/08/13/causality-part4-DID.html)
-  * 20190808 [Instrumental variable (도구변수)](https://danbi-ncsoft.github.io/study/2019/08/07/IV.html)
-  * 20190726 [노래 추천으로 본 코사인 유사도](https://anarinsk.github.io/cossim/)
-  * 20190718 [Dot product](https://anarinsk.github.io/lie-dot_product/)
-  * 20190713 [Poisson from Binomial](https://anarinsk.github.io/lie-poisson/)
-  * 20190517 [Math behind PCA](https://anarinsk.github.io/lie-math_pca/)
-  * 20190713 [Poisson from Binomial](https://anarinsk.github.io/lie-poisson/)
-  * 20190513 [One-shot Econ: 장학퀴즈로 본 젠더 행동](https://brunch.co.kr/@anarinsk/24)
-  * 20190509 [One-shot Econ: 직장 임금격차의 뜻하지 않은 효과](https://brunch.co.kr/@anarinsk/23)
-  * 20190504 [Mathematics of Support Vector Machine](https://anarinsk.github.io/lie-math_svm/)
-  * 20190417 [One-shot Econ: 세계적 불평등의 시각화](https://brunch.co.kr/@anarinsk/21)
-  * 20190416 [남한의 산불 (2003 -- 2018)](https://anarinsk.github.io/adp-
 
 # 분산 최대화 
 
@@ -250,7 +235,7 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMjQ3MjgyMywxNDc4OTI1NzI4LC0xNj
+eyJoaXN0b3J5IjpbMTc1OTEzNDg1MiwxNDc4OTI1NzI4LC0xNj
 AzNzM1ODE0LC0xOTU1NTExODYsLTEzNzIxNDI2ODQsMTA2Nzk3
 ODMzNiwyMTA1OTczODc2LC03ODQzMjY4NjEsLTc3NzUzMDkyMS
 w2MDQ5Mjc1MSwtMTIxMzc2OTUyOSwyNTY0MDEyNzIsMjA2OTkz
