@@ -148,9 +148,9 @@ $$
 \end{aligned}
 $$
 
-1계 조건을 다시 보자. $\Sigma w = \lambda w$ 조건이 흥미롭다. 1계 조건이 정확하게 아이겐밸류(eigenvalue)와 아이겐벡터(eigenvector)를 구하는 방법다. 어떤 매트릭스가 있을 때 해당 매트릭스의 분산-공분산 행렬의 아이겐밸류와 아이겐벡터를 구하면 그 아이겐밸류와 벡터가 바로 RSS를 최적화해주는 값이 된다. 이때 $w$는 아이겐벡터이며 $\lambda$는 아이겐밸류가 된다.  아이겐밸류는 아래 식에서 보듯이 분산이다.[^4]
+1계 조건을 다시 보자. $\Sigma w = \lambda w$ 조건이 흥미롭다. 1계 조건이 정확하게 아이겐밸류(eigenvalue)와 아이겐벡터(eigenvector)를 구하는 방법다. 어떤 매트릭스가 있을 때 해당 매트릭스의 분산-공분산 행렬의 아이겐밸류와 아이겐벡터를 구하면 그 아이겐밸류와 벡터가 바로 RSS를 최적화해주는 값이 된다. 이때 $w$는 아이겐벡터이며 $\lambda$는 아이겐밸류가 된다.  아이겐밸류는 아래 식에서 보듯이 분산이다.[^2]
 
-{^4]: Test 
+[^2]: 흥미로운 일치를 확인하셨는지? 제약 하 극대화에서 라그랑쥬 승수와 아이겐밸류를 나타내는 수학 기호가 모두 $\lambda$다. 약간 소름 돋는 대목이다. 일치는 여기서 끝나지 않는다. 라그랑쥬 승수는 ㅈ
 
 $$
 \operatorname{Var}(X w) = w^{\mathrm T} \Sigma w =  \lambda w \cdot w = \lambda
@@ -234,7 +234,7 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NzQ2MjI0NiwtMTYwMzczNTgxNCwtMT
+eyJoaXN0b3J5IjpbMTIwNjE3MjY1NSwtMTYwMzczNTgxNCwtMT
 k1NTUxMTg2LC0xMzcyMTQyNjg0LDEwNjc5NzgzMzYsMjEwNTk3
 Mzg3NiwtNzg0MzI2ODYxLC03Nzc1MzA5MjEsNjA0OTI3NTEsLT
 EyMTM3Njk1MjksMjU2NDAxMjcyLDIwNjk5Mzc5MjAsMTg2NDcz
