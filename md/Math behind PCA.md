@@ -148,7 +148,9 @@ $$
 \end{aligned}
 $$
 
-1계 조건을 다시 보자. $\Sigma w = \lambda w$ 조건이 흥미롭다. 1계 조건이 정확하게 아이겐밸류(eigenvalue)와 아이겐벡터(eigenvector)를 구하는 방법다. 어떤 매트릭스가 있을 때 해당 매트릭스의 분산-공분산 행렬의 아이겐밸류와 아이겐벡터를 구하면 그 아이겐밸류와 벡터가 바로 RSS를 최적화해주는 값이 된다. 이때 $w$는 아이겐벡터이며 $\lambda$는 아이겐밸류가 된다.  아이겐밸류는 아래 식에서 보듯이 분산이다.[]
+1계 조건을 다시 보자. $\Sigma w = \lambda w$ 조건이 흥미롭다. 1계 조건이 정확하게 아이겐밸류(eigenvalue)와 아이겐벡터(eigenvector)를 구하는 방법다. 어떤 매트릭스가 있을 때 해당 매트릭스의 분산-공분산 행렬의 아이겐밸류와 아이겐벡터를 구하면 그 아이겐밸류와 벡터가 바로 RSS를 최적화해주는 값이 된다. 이때 $w$는 아이겐벡터이며 $\lambda$는 아이겐밸류가 된다.  아이겐밸류는 아래 식에서 보듯이 분산이다.[^4]
+
+{^4]: Test 
 
 $$
 \operatorname{Var}(X w) = w^{\mathrm T} \Sigma w =  \lambda w \cdot w = \lambda
@@ -215,9 +217,9 @@ $$
 
 # 마침내 차원 축소 
 
-이제 차원 축소를 다룰 수        보.  $k$    는 으로 $ (택하려 $ 개로   한 값  설명이 큰 $l$ 의 프로될까? 앞서 RSS 최소화 문제에서 보았듯이 분산이 클수록 좋다. 임의의 갯수로 주성분을 취한다고 할 때 의 기준은 분 이 큰 순서이고  분산은 아이겐밸류와 같다. 요컨대 $l$ 개의 주성분을 취할 때 취할 때 아이겐밸류가 큰 순서대로 취하면 되겠다.[^2] 
+이제 차원 축소를 다룰 수        보.  $k$    는 으로 $ (택하려 $ 개로   한 값  설명이 큰 $l$ 의 프로될까? 앞서 RSS 최소화 문제에서 보았듯이 분산이 클수록 좋다. 임의의 갯수로 주성분을 취한다고 할 때 의 기준은 분 이 큰 순서이고  분산은 아이겐밸류와 같다. 요컨대 $l$ 개의 주성분을 취할 때 취할 때 아이겐밸류가 큰 순서대로 취하면 되겠다.[^3] 
 
-[^2]: 주성분의 갯수를 취하는 방법은 PCA에 관한 튜토리얼에서 항상 등장하는 주제이니 구글링을 해서 확인하시면 되겠다. 
+[^3]: 주성분의 갯수를 취하는 방법은 PCA에 관한 튜토리얼에서 항상 등장하는 주제이니 구글링을 해서 확인하시면 되겠다. 
 
 # Resource 
 
@@ -232,11 +234,11 @@ https://www.stat.cmu.edu/~cshalizi/350/lectures/10/lecture-10.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTUyMzM1NjgsLTE2MDM3MzU4MTQsLT
-E5NTU1MTE4NiwtMTM3MjE0MjY4NCwxMDY3OTc4MzM2LDIxMDU5
-NzM4NzYsLTc4NDMyNjg2MSwtNzc3NTMwOTIxLDYwNDkyNzUxLC
-0xMjEzNzY5NTI5LDI1NjQwMTI3MiwyMDY5OTM3OTIwLDE4NjQ3
-MzUyMzEsLTE1ODA5ODc1NTYsMjA1MTgxODMzMywtODQ5ODUyOD
-MxLC0xNzExOTMyNTc4LDE4MzM3NTAzMTUsLTYyMjk0NzA4MSwx
-NDI3NzYzNzgyXX0=
+eyJoaXN0b3J5IjpbMTk3NzQ2MjI0NiwtMTYwMzczNTgxNCwtMT
+k1NTUxMTg2LC0xMzcyMTQyNjg0LDEwNjc5NzgzMzYsMjEwNTk3
+Mzg3NiwtNzg0MzI2ODYxLC03Nzc1MzA5MjEsNjA0OTI3NTEsLT
+EyMTM3Njk1MjksMjU2NDAxMjcyLDIwNjk5Mzc5MjAsMTg2NDcz
+NTIzMSwtMTU4MDk4NzU1NiwyMDUxODE4MzMzLC04NDk4NTI4Mz
+EsLTE3MTE5MzI1NzgsMTgzMzc1MDMxNSwtNjIyOTQ3MDgxLDE0
+Mjc3NjM3ODJdfQ==
 -->
